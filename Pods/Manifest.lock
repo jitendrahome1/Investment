@@ -1,0 +1,20 @@
+PODS:
+  - EMSpinnerButton (1.0.0)
+  - RSFloatInputView (1.1.0)
+
+DEPENDENCIES:
+  - EMSpinnerButton
+  - RSFloatInputView
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - EMSpinnerButton
+    - RSFloatInputView
+
+SPEC CHECKSUMS:
+  EMSpinnerButton: edcf72c6a9809a7ede3f6e0696a7c7b38ca8180d
+  RSFloatInputView: 3899803dec34b7dbe04c87ea4c4ea69eca210f9d
+
+PODFILE CHECKSUM: 2c0df930dcbca4ce7e0ba7ec77e7ad8b52d4f500
+
+COCOAPODS: 1.5.3
