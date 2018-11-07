@@ -267,6 +267,8 @@
 		435DF3F721898FD900D74D64 /* Investment */ = {
 			isa = PBXGroup;
 			children = (
+				4386A2FF2192C3DE007A2D64 /* Service */,
+				4386A2FE2192C3D2007A2D64 /* CoreData */,
 				4386A2FD2192C398007A2D64 /* Model */,
 				4386A2BD2192C142007A2D64 /* Helpers */,
 				431B4850218C6CD9004778CE /* ViewModel */,
@@ -481,6 +483,20 @@
 			children = (
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		4386A2FE2192C3D2007A2D64 /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = CoreData;
+			sourceTree = "<group>";
+		};
+		4386A2FF2192C3DE007A2D64 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Service;
 			sourceTree = "<group>";
 		};
 		EB5BC71F5154EB0FF3E1FE76 /* Frameworks */ = {
