@@ -49,9 +49,9 @@
 		4386A2962192B816007A2D64 /* UIView+Inverstment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4386A2932192B816007A2D64 /* UIView+Inverstment.swift */; };
 		4386A2982192B828007A2D64 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4386A2972192B828007A2D64 /* Constants.swift */; };
 		4386A29A2192B85B007A2D64 /* UIStoryboardProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4386A2992192B85B007A2D64 /* UIStoryboardProtocol.swift */; };
-		4386A29E2192B98E007A2D64 /* JANagivationStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4386A29C2192B98E007A2D64 /* JANagivationStyle.swift */; };
-		4386A29F2192B98E007A2D64 /* UIController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4386A29D2192B98E007A2D64 /* UIController.swift */; };
 		4386A2A12192BA0F007A2D64 /* UIStoryboard+Storyboards.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4386A2A02192BA0F007A2D64 /* UIStoryboard+Storyboards.swift */; };
+		4386A2BB2192BEC3007A2D64 /* JANagivationStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4386A2B92192BEC3007A2D64 /* JANagivationStyle.swift */; };
+		4386A2BC2192BEC3007A2D64 /* UIController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4386A2BA2192BEC3007A2D64 /* UIController.swift */; };
 		43A20C85218C15120085C610 /* InverstmentListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43A20C84218C15120085C610 /* InverstmentListVC.swift */; };
 		4888D02662B92E041DFCE60B /* Pods_Investment.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A27BF456CDA4781116028015 /* Pods_Investment.framework */; };
 /* End PBXBuildFile section */
@@ -123,9 +123,9 @@
 		4386A2932192B816007A2D64 /* UIView+Inverstment.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "UIView+Inverstment.swift"; path = "../../../../../../../untitled folder/UIView+Inverstment.swift"; sourceTree = "<group>"; };
 		4386A2972192B828007A2D64 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Constants.swift; path = "../../../../../../untitled folder/Constants.swift"; sourceTree = "<group>"; };
 		4386A2992192B85B007A2D64 /* UIStoryboardProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = UIStoryboardProtocol.swift; path = "../../../../../../../untitled folder/UIStoryboardProtocol.swift"; sourceTree = "<group>"; };
-		4386A29C2192B98E007A2D64 /* JANagivationStyle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JANagivationStyle.swift; sourceTree = "<group>"; };
-		4386A29D2192B98E007A2D64 /* UIController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIController.swift; sourceTree = "<group>"; };
 		4386A2A02192BA0F007A2D64 /* UIStoryboard+Storyboards.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "UIStoryboard+Storyboards.swift"; path = "../../../../../../../untitled folder/UIStoryboard+Storyboards.swift"; sourceTree = "<group>"; };
+		4386A2B92192BEC3007A2D64 /* JANagivationStyle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JANagivationStyle.swift; sourceTree = "<group>"; };
+		4386A2BA2192BEC3007A2D64 /* UIController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIController.swift; sourceTree = "<group>"; };
 		43A20C84218C15120085C610 /* InverstmentListVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InverstmentListVC.swift; sourceTree = "<group>"; };
 		91CB04FE6D90241F0826DF70 /* Pods-Investment.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Investment.release.xcconfig"; path = "Pods/Target Support Files/Pods-Investment/Pods-Investment.release.xcconfig"; sourceTree = "<group>"; };
 		A27BF456CDA4781116028015 /* Pods_Investment.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Investment.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -376,7 +376,7 @@
 		435DF42C2189928900D74D64 /* Helpers */ = {
 			isa = PBXGroup;
 			children = (
-				4386A29B2192B98E007A2D64 /* JANagivationStyle */,
+				4386A2B82192BEC3007A2D64 /* JANagivationStyle */,
 				4386A26E2192B5A2007A2D64 /* MenuClass */,
 				43583ABA2190604800FFC55A /* JAEditableTextView */,
 				431B4879218C9486004778CE /* NavigationHelper */,
@@ -482,14 +482,13 @@
 			path = MenuClass;
 			sourceTree = "<group>";
 		};
-		4386A29B2192B98E007A2D64 /* JANagivationStyle */ = {
+		4386A2B82192BEC3007A2D64 /* JANagivationStyle */ = {
 			isa = PBXGroup;
 			children = (
-				4386A29C2192B98E007A2D64 /* JANagivationStyle.swift */,
-				4386A29D2192B98E007A2D64 /* UIController.swift */,
+				4386A2B92192BEC3007A2D64 /* JANagivationStyle.swift */,
+				4386A2BA2192BEC3007A2D64 /* UIController.swift */,
 			);
-			name = JANagivationStyle;
-			path = "../../../../../../untitled folder/JANagivationStyle";
+			path = JANagivationStyle;
 			sourceTree = "<group>";
 		};
 		43A20C88218C3C930085C610 /* Protocol */ = {
@@ -701,15 +700,14 @@
 				4386A2942192B816007A2D64 /* UIColor+Inverstment.swift in Sources */,
 				435DF43D2189980B00D74D64 /* LoginViewController.swift in Sources */,
 				4386A29A2192B85B007A2D64 /* UIStoryboardProtocol.swift in Sources */,
-				4386A29E2192B98E007A2D64 /* JANagivationStyle.swift in Sources */,
 				431B486C218C82DF004778CE /* MenuViewModel.swift in Sources */,
 				431B4870218C84AD004778CE /* BaseTableViewCell.swift in Sources */,
 				4386A27D2192B5BC007A2D64 /* Collection+FAPanel.swift in Sources */,
 				4386A27C2192B5BC007A2D64 /* FAPanel+InterfaceRotation.swift in Sources */,
 				435DF43A218997F000D74D64 /* BaseViewController.swift in Sources */,
+				4386A2BC2192BEC3007A2D64 /* UIController.swift in Sources */,
 				43591D44218B0E9E00ABCB0A /* AuthenticationViewController.swift in Sources */,
 				4386A2952192B816007A2D64 /* UINavigationController+Investment.swift in Sources */,
-				4386A29F2192B98E007A2D64 /* UIController.swift in Sources */,
 				4386A2962192B816007A2D64 /* UIView+Inverstment.swift in Sources */,
 				435DF4442189B7CF00D74D64 /* BaseTableViewController.swift in Sources */,
 				43A20C85218C15120085C610 /* InverstmentListVC.swift in Sources */,
@@ -725,6 +723,7 @@
 				4386A28A2192B779007A2D64 /* NavigationHelper.swift in Sources */,
 				4386A2842192B6DA007A2D64 /* TouchIDAuthentication.swift in Sources */,
 				4386A2822192B5BC007A2D64 /* UIView+FAPanel.swift in Sources */,
+				4386A2BB2192BEC3007A2D64 /* JANagivationStyle.swift in Sources */,
 				431B486A218C826D004778CE /* MenuVC.swift in Sources */,
 				43583AB821904B2A00FFC55A /* InvestmentDetailsVC.swift in Sources */,
 				4386A2792192B5BC007A2D64 /* FAPanel+Animations.swift in Sources */,
