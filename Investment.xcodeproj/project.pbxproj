@@ -267,6 +267,9 @@
 		435DF3F721898FD900D74D64 /* Investment */ = {
 			isa = PBXGroup;
 			children = (
+				4386A2DB2192C142007A2D64 /* Model */,
+				4386A2C42192C142007A2D64 /* CoreData */,
+				4386A2E02192C142007A2D64 /* Services */,
 				4386A2BD2192C142007A2D64 /* Helpers */,
 				431B4850218C6CD9004778CE /* ViewModel */,
 				435DF42A2189916400D74D64 /* Resources */,
@@ -379,15 +382,12 @@
 				4386A2BE2192C142007A2D64 /* Applications */,
 				4386A2C02192C142007A2D64 /* Authentication */,
 				4386A2C22192C142007A2D64 /* Constants */,
-				4386A2C42192C142007A2D64 /* CoreData */,
 				4386A2C52192C142007A2D64 /* Extension */,
 				4386A2CA2192C142007A2D64 /* JAEditableTextView */,
 				4386A2CD2192C142007A2D64 /* JANagivationStyle */,
 				4386A2D02192C142007A2D64 /* MenuClass */,
-				4386A2DB2192C142007A2D64 /* Model */,
 				4386A2DC2192C142007A2D64 /* NavigationHelper */,
 				4386A2DE2192C142007A2D64 /* Protocol */,
-				4386A2E02192C142007A2D64 /* Services */,
 			);
 			path = Helpers;
 			sourceTree = "<group>";
