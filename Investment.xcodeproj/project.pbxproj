@@ -686,6 +686,8 @@
 				"${BUILT_PRODUCTS_DIR}/EMSpinnerButton/EMSpinnerButton.framework",
 				"${BUILT_PRODUCTS_DIR}/EzPopup/EzPopup.framework",
 				"${BUILT_PRODUCTS_DIR}/RSFloatInputView/RSFloatInputView.framework",
+				"${BUILT_PRODUCTS_DIR}/Realm/Realm.framework",
+				"${BUILT_PRODUCTS_DIR}/RealmSwift/RealmSwift.framework",
 				"${BUILT_PRODUCTS_DIR}/WOWMarkSlider/WOWMarkSlider.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
@@ -695,6 +697,8 @@
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/EMSpinnerButton.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/EzPopup.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RSFloatInputView.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Realm.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RealmSwift.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/WOWMarkSlider.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;

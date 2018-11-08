@@ -90,7 +90,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Investment/Helpers/JAEditableTextView/JAEditableTextView.swift"
-            timestampString = "563371053.577419"
+            timestampString = "563371779.089918"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "61"
@@ -106,11 +106,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Investment/Controller/InvestmentDetailsVC.swift"
-            timestampString = "563371053.577509"
+            timestampString = "563371779.090019"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "104"
-            endingLineNumber = "104"
+            startingLineNumber = "100"
+            endingLineNumber = "100"
             landmarkName = "didTapCancleAction()"
             landmarkType = "7">
          </BreakpointContent>

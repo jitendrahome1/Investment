@@ -267,9 +267,9 @@
                         <subviews>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="justified" translatesAutoresizingMaskIntoConstraints="NO" id="nRA-dk-Z4l" customClass="JAEditableTextView" customModule="Investment" customModuleProvider="target">
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="629"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
                                 <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="14"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="16"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                 <connections>
                                     <outlet property="delegate" destination="crp-kI-P33" id="B5Z-W2-xmX"/>
@@ -296,7 +296,7 @@
                                 </userDefinedRuntimeAttributes>
                             </slider>
                         </subviews>
-                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="backgroundColor" red="0.049493167408018471" green="0.049658834650508771" blue="0.74182318652849744" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="nRA-dk-Z4l" firstAttribute="top" secondItem="vsl-p6-yKX" secondAttribute="top" id="6uC-3q-VoT"/>
                             <constraint firstItem="FFF-gX-Ulc" firstAttribute="trailing" secondItem="WN8-vb-Gfx" secondAttribute="trailing" constant="16" id="EkB-r7-FVC"/>

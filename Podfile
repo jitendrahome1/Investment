@@ -11,4 +11,5 @@ target 'Investment' do
   pod 'EMSpinnerButton'
   pod 'EzPopup'
   pod 'WOWMarkSlider'
+  pod 'RealmSwift'
 end

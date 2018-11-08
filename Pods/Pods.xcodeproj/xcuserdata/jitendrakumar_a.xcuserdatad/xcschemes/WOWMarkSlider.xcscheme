@@ -14,7 +14,7 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "763443D91DE44A0D98F47B216D3313A8"
+               BlueprintIdentifier = "9845DE2E3B6C3CDD37A6BEEF1FF600F0"
                BlueprintName = "WOWMarkSlider"
                ReferencedContainer = "container:Pods.xcodeproj"
                BuildableName = "WOWMarkSlider.framework">
