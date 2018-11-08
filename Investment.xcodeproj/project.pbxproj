@@ -52,6 +52,11 @@
 		4386A2F52192C142007A2D64 /* UIViewController+FAPanel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4386A2DA2192C142007A2D64 /* UIViewController+FAPanel.swift */; };
 		4386A2F62192C142007A2D64 /* NavigationHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4386A2DD2192C142007A2D64 /* NavigationHelper.swift */; };
 		4386A2F72192C142007A2D64 /* UIStoryboardProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4386A2DF2192C142007A2D64 /* UIStoryboardProtocol.swift */; };
+		4386A3162192F158007A2D64 /* ColorWheel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4386A3102192F158007A2D64 /* ColorWheel.swift */; };
+		4386A3172192F158007A2D64 /* ColorWheelLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4386A3112192F158007A2D64 /* ColorWheelLayer.swift */; };
+		4386A3182192F158007A2D64 /* DefaultWheelGestureHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4386A3122192F158007A2D64 /* DefaultWheelGestureHandler.swift */; };
+		4386A31A2192F158007A2D64 /* RotatingColorWheel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4386A3142192F158007A2D64 /* RotatingColorWheel.swift */; };
+		4386A31D2192F24C007A2D64 /* ColorPickupVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4386A31C2192F24C007A2D64 /* ColorPickupVC.swift */; };
 		43A20C85218C15120085C610 /* InverstmentListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43A20C84218C15120085C610 /* InverstmentListVC.swift */; };
 		4888D02662B92E041DFCE60B /* Pods_Investment.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A27BF456CDA4781116028015 /* Pods_Investment.framework */; };
 /* End PBXBuildFile section */
@@ -126,6 +131,12 @@
 		4386A2DA2192C142007A2D64 /* UIViewController+FAPanel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIViewController+FAPanel.swift"; sourceTree = "<group>"; };
 		4386A2DD2192C142007A2D64 /* NavigationHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NavigationHelper.swift; sourceTree = "<group>"; };
 		4386A2DF2192C142007A2D64 /* UIStoryboardProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIStoryboardProtocol.swift; sourceTree = "<group>"; };
+		4386A3102192F158007A2D64 /* ColorWheel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorWheel.swift; sourceTree = "<group>"; };
+		4386A3112192F158007A2D64 /* ColorWheelLayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorWheelLayer.swift; sourceTree = "<group>"; };
+		4386A3122192F158007A2D64 /* DefaultWheelGestureHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DefaultWheelGestureHandler.swift; sourceTree = "<group>"; };
+		4386A3142192F158007A2D64 /* RotatingColorWheel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RotatingColorWheel.swift; sourceTree = "<group>"; };
+		4386A3152192F158007A2D64 /* SwiftColorWheel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SwiftColorWheel.h; sourceTree = "<group>"; };
+		4386A31C2192F24C007A2D64 /* ColorPickupVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorPickupVC.swift; sourceTree = "<group>"; };
 		43A20C84218C15120085C610 /* InverstmentListVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InverstmentListVC.swift; sourceTree = "<group>"; };
 		91CB04FE6D90241F0826DF70 /* Pods-Investment.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Investment.release.xcconfig"; path = "Pods/Target Support Files/Pods-Investment/Pods-Investment.release.xcconfig"; sourceTree = "<group>"; };
 		A27BF456CDA4781116028015 /* Pods_Investment.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Investment.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -302,6 +313,7 @@
 		435DF4262189901D00D74D64 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				4386A31B2192F21B007A2D64 /* ColorPickup */,
 				43583AB621904AFD00FFC55A /* InvestmentDetails */,
 				431B486D218C8488004778CE /* BaseCell */,
 				431B4868218C8246004778CE /* Menu */,
@@ -379,6 +391,7 @@
 		4386A2BD2192C142007A2D64 /* Helpers */ = {
 			isa = PBXGroup;
 			children = (
+				4386A30F2192F158007A2D64 /* SwiftColorWheel */,
 				4386A2BE2192C142007A2D64 /* Applications */,
 				4386A2C02192C142007A2D64 /* Authentication */,
 				4386A2C22192C142007A2D64 /* Constants */,
@@ -497,6 +510,26 @@
 			children = (
 			);
 			path = Service;
+			sourceTree = "<group>";
+		};
+		4386A30F2192F158007A2D64 /* SwiftColorWheel */ = {
+			isa = PBXGroup;
+			children = (
+				4386A3102192F158007A2D64 /* ColorWheel.swift */,
+				4386A3112192F158007A2D64 /* ColorWheelLayer.swift */,
+				4386A3122192F158007A2D64 /* DefaultWheelGestureHandler.swift */,
+				4386A3142192F158007A2D64 /* RotatingColorWheel.swift */,
+				4386A3152192F158007A2D64 /* SwiftColorWheel.h */,
+			);
+			path = SwiftColorWheel;
+			sourceTree = "<group>";
+		};
+		4386A31B2192F21B007A2D64 /* ColorPickup */ = {
+			isa = PBXGroup;
+			children = (
+				4386A31C2192F24C007A2D64 /* ColorPickupVC.swift */,
+			);
+			path = ColorPickup;
 			sourceTree = "<group>";
 		};
 		EB5BC71F5154EB0FF3E1FE76 /* Frameworks */ = {
@@ -651,6 +684,7 @@
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-Investment/Pods-Investment-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/EMSpinnerButton/EMSpinnerButton.framework",
+				"${BUILT_PRODUCTS_DIR}/EzPopup/EzPopup.framework",
 				"${BUILT_PRODUCTS_DIR}/RSFloatInputView/RSFloatInputView.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
@@ -658,6 +692,7 @@
 			);
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/EMSpinnerButton.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/EzPopup.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RSFloatInputView.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -700,13 +735,17 @@
 				4386A2F12192C142007A2D64 /* FAPanel.swift in Sources */,
 				4386A2F22192C142007A2D64 /* FAPanelConfigurations.swift in Sources */,
 				4386A2E52192C142007A2D64 /* UINavigationController+Investment.swift in Sources */,
+				4386A31D2192F24C007A2D64 /* ColorPickupVC.swift in Sources */,
 				4386A2ED2192C142007A2D64 /* FAPanel+Animations.swift in Sources */,
+				4386A31A2192F158007A2D64 /* RotatingColorWheel.swift in Sources */,
+				4386A3172192F158007A2D64 /* ColorWheelLayer.swift in Sources */,
 				435DF43D2189980B00D74D64 /* LoginViewController.swift in Sources */,
 				431B486C218C82DF004778CE /* MenuViewModel.swift in Sources */,
 				4386A2F62192C142007A2D64 /* NavigationHelper.swift in Sources */,
 				4386A2E92192C142007A2D64 /* JAEditableTextView.swift in Sources */,
 				4386A2E12192C142007A2D64 /* Applications.swift in Sources */,
 				431B4870218C84AD004778CE /* BaseTableViewCell.swift in Sources */,
+				4386A3182192F158007A2D64 /* DefaultWheelGestureHandler.swift in Sources */,
 				4386A2EE2192C142007A2D64 /* FAPanel+Gestures.swift in Sources */,
 				4386A2F72192C142007A2D64 /* UIStoryboardProtocol.swift in Sources */,
 				435DF43A218997F000D74D64 /* BaseViewController.swift in Sources */,
@@ -720,6 +759,7 @@
 				4386A2F42192C142007A2D64 /* UIView+FAPanel.swift in Sources */,
 				43591D44218B0E9E00ABCB0A /* AuthenticationViewController.swift in Sources */,
 				4386A2E22192C142007A2D64 /* TouchIDAuthentication.swift in Sources */,
+				4386A3162192F158007A2D64 /* ColorWheel.swift in Sources */,
 				435DF4442189B7CF00D74D64 /* BaseTableViewController.swift in Sources */,
 				43A20C85218C15120085C610 /* InverstmentListVC.swift in Sources */,
 				435DF3F921898FD900D74D64 /* AppDelegate.swift in Sources */,

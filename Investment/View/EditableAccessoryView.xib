@@ -24,9 +24,13 @@
                         <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="MyCartEdit" translatesAutoresizingMaskIntoConstraints="NO" id="Ago-Yj-o1S">
                             <rect key="frame" x="49" y="2" width="20" height="20"/>
                         </imageView>
-                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="color" translatesAutoresizingMaskIntoConstraints="NO" id="c0O-PG-LnM">
-                            <rect key="frame" x="98" y="2" width="20" height="20"/>
-                        </imageView>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6sr-gN-5G3">
+                            <rect key="frame" x="98" y="1" width="20" height="22"/>
+                            <state key="normal" image="color"/>
+                            <connections>
+                                <action selector="didTapColorSelectAction:" destination="iN0-l3-epB" eventType="touchUpInside" id="n18-ea-diu"/>
+                            </connections>
+                        </button>
                         <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="table" translatesAutoresizingMaskIntoConstraints="NO" id="hDy-q3-cJA">
                             <rect key="frame" x="147" y="0.0" width="24" height="24"/>
                         </imageView>

@@ -3,75 +3,94 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 46;
+	objectVersion = 50;
 	objects = {
 
 /* Begin PBXBuildFile section */
-		06BA7AEB0336943517682F63104B70F7 /* EMSpinnerButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55614C1105C5D8C4A238BD6025D39BB7 /* EMSpinnerButton.swift */; };
-		10B0D9289FE76E2D0DC16222187565D0 /* RSFloatInputViewUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = C51C5AD8D0FCD299304904EFE89F6D79 /* RSFloatInputViewUtils.swift */; };
-		1F2287AC26562A596CC7053EDADB3927 /* RSFloatInputView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3AC5477C314D46330161CD0D6CDDD6B9 /* RSFloatInputView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		21A59FC01B6683538A5D156743AEB41E /* EMSpinnerButton-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 26CB4191548B8FA9421B390CF4DD6713 /* EMSpinnerButton-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		22394717B98A01E8ABD8F3F0DD233219 /* RSFloatInputView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 360527394EC075BD33DA5F54FA72949E /* RSFloatInputView.swift */; };
-		3664E840513CE375EADAD4E315F75774 /* EMSpinnerButton.h in Headers */ = {isa = PBXBuildFile; fileRef = 85979A8D6A1EC2570115750A140CCA4C /* EMSpinnerButton.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		3F90915B0F5A4EDE47305FCA42A2150A /* Pods-Investment-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D5E3A19B2930C810DDC433AE451736BA /* Pods-Investment-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		06BA7AEB0336943517682F63104B70F7 /* EMSpinnerButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00B026207C94CCD8B04ED169C6951A6A /* EMSpinnerButton.swift */; };
+		1ADD4D4931246D6C4DCF0EC756FB01E6 /* RSFloatInputView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 919500FD71BBD1C7E53B81DA7B4845EF /* RSFloatInputView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1AF7A1F2E370E0C2D68620CCA5BD4FB2 /* Pods-Investment-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DDD01D9A0E9A0F811116C9B3C34E659A /* Pods-Investment-dummy.m */; };
+		1C0770F93B04CAD896D33750C35E8D71 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+		21A59FC01B6683538A5D156743AEB41E /* EMSpinnerButton-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 05EF4561949AAA235D8E769769746FA4 /* EMSpinnerButton-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3664E840513CE375EADAD4E315F75774 /* EMSpinnerButton.h in Headers */ = {isa = PBXBuildFile; fileRef = A9403A546A5381E3E585BE67D73004AF /* EMSpinnerButton.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		50E8A267B3364DFE5F921E9E5296665E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+		54D5586112A19A87677ADC5423F47DC1 /* RSFloatInputViewUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58FE176CCA9283759CFF8B0B7C9685C2 /* RSFloatInputViewUtils.swift */; };
 		672E984B37D7BC5E1AF70827B61D1545 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
-		A4A2B96C5D8B78AF0BD4485BD6A514B2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
-		B083F28BA5F5C6CF135560E3024D5803 /* EMSpinnerButton-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8347D5A02DCAA3B5EF81F562EC7A1CED /* EMSpinnerButton-dummy.m */; };
-		B654F2B6C438EA7346BB6DD99E139DDA /* Pods-Investment-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DDD01D9A0E9A0F811116C9B3C34E659A /* Pods-Investment-dummy.m */; };
-		B9551B82BF07EE0708552F8C05A29ED8 /* EMSpinnerLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8697E3790869DEDD9D208F14F0E29245 /* EMSpinnerLayer.swift */; };
-		CE14859D2FE9B2425149A5BF6FC9D0D0 /* RSFloatInputView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BC13996ECD90A72B640DA4D08ED8C80C /* RSFloatInputView-dummy.m */; };
-		F35F950BE1AA015E35CB93833B2387EB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+		784C1FE98FF2A61C23A2F57F9FEF6ADF /* RSFloatInputView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ECCFEBA530FA764A7FEDDD0209C555C /* RSFloatInputView.swift */; };
+		7EFDB7F4A273208756762EE13C22C2DA /* Pods-Investment-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D5E3A19B2930C810DDC433AE451736BA /* Pods-Investment-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		955B09C3CB7B2471123DE8D645155B49 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+		9B66E91F224B83EB6A466F2C23D6139E /* PopupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D545A63A88C94CAC431ECD7A9E4AF19E /* PopupViewController.swift */; };
+		A39865E458B42CC9175BC70895255BAD /* EzPopup-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 06B783738650422D3EBEA157FA7EBB53 /* EzPopup-dummy.m */; };
+		B083F28BA5F5C6CF135560E3024D5803 /* EMSpinnerButton-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 70FC8F0E7D9E00CF2BE7D8812C04D210 /* EMSpinnerButton-dummy.m */; };
+		B9551B82BF07EE0708552F8C05A29ED8 /* EMSpinnerLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F0F094A59B9BC9DDF96A7D55862C9F7 /* EMSpinnerLayer.swift */; };
+		C7452CB9BFB4232680B7AB95E0BB3041 /* EzPopup-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 06404CF3577DBD0B05D13B077A25ADFA /* EzPopup-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C7582F8DCEBDA1A4A8E201CF9446C274 /* RSFloatInputView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A3E45448C3C080F2A3C5DEE673F3D4EC /* RSFloatInputView-dummy.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		28F12E9CF51E8650F594E46DE6773E7C /* PBXContainerItemProxy */ = {
+		1E822BE017E5A2B2D8F906B1F61B5232 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 50B5E100B1F2296D6F073D8448776DEE;
+			remoteInfo = RSFloatInputView;
+		};
+		3F55DD89B31759C083100FEE931FF0CE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 420A71656F82FD270F2F01D994591F01;
+			remoteInfo = EzPopup;
+		};
+		9A2F80300BAED2B4CBAA571ED5833C7F /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = A0C0A18A908C6D5A03C4DAA77582B9F0;
 			remoteInfo = EMSpinnerButton;
 		};
-		4BDA2FD0F2F0DF1266C1BB181DF03A75 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 3F28BB8A775C41C1E9D05895CE45C161;
-			remoteInfo = RSFloatInputView;
-		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		110F7AE08544C28C8738D8A888E8C3A7 /* RSFloatInputView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RSFloatInputView-prefix.pch"; sourceTree = "<group>"; };
-		15E7AC977E114B7594EEC6311D9EEC9E /* RSFloatInputView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = RSFloatInputView.xcconfig; sourceTree = "<group>"; };
-		1FD8C4D4CA734DD187FD326549B4176D /* EMSpinnerButton-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "EMSpinnerButton-prefix.pch"; sourceTree = "<group>"; };
-		26CB4191548B8FA9421B390CF4DD6713 /* EMSpinnerButton-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "EMSpinnerButton-umbrella.h"; sourceTree = "<group>"; };
-		318E8F14ADE854154376C9B285A5FC06 /* EMSpinnerButton.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = EMSpinnerButton.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		360527394EC075BD33DA5F54FA72949E /* RSFloatInputView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RSFloatInputView.swift; path = RSFloatInputView/Classes/RSFloatInputView.swift; sourceTree = "<group>"; };
-		38C8EA79FAA219F7529F39A3F1650544 /* Pods_Investment.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Investment.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		3AC5477C314D46330161CD0D6CDDD6B9 /* RSFloatInputView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RSFloatInputView-umbrella.h"; sourceTree = "<group>"; };
-		3B1EF100104DEBF1C404C3DEEF5C6FD4 /* RSFloatInputView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = RSFloatInputView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		55614C1105C5D8C4A238BD6025D39BB7 /* EMSpinnerButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = EMSpinnerButton.swift; path = EMSpinnerButton/EMSpinnerButton/EMSpinnerButton.swift; sourceTree = "<group>"; };
+		00B026207C94CCD8B04ED169C6951A6A /* EMSpinnerButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = EMSpinnerButton.swift; path = EMSpinnerButton/EMSpinnerButton/EMSpinnerButton.swift; sourceTree = "<group>"; };
+		05EF4561949AAA235D8E769769746FA4 /* EMSpinnerButton-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "EMSpinnerButton-umbrella.h"; sourceTree = "<group>"; };
+		06404CF3577DBD0B05D13B077A25ADFA /* EzPopup-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "EzPopup-umbrella.h"; sourceTree = "<group>"; };
+		06B783738650422D3EBEA157FA7EBB53 /* EzPopup-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "EzPopup-dummy.m"; sourceTree = "<group>"; };
+		0F0F094A59B9BC9DDF96A7D55862C9F7 /* EMSpinnerLayer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = EMSpinnerLayer.swift; path = EMSpinnerButton/EMSpinnerButton/EMSpinnerLayer.swift; sourceTree = "<group>"; };
+		101AECF2DD5F4AF29393E1EE4A8E66F8 /* EMSpinnerButton.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = EMSpinnerButton.xcconfig; sourceTree = "<group>"; };
+		2CD4B662B4697CFD9C42E240AACEB2E4 /* RSFloatInputView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = RSFloatInputView.modulemap; sourceTree = "<group>"; };
+		3001DC600C377CBCBBE1A91EF0D32276 /* EMSpinnerButton-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "EMSpinnerButton-prefix.pch"; sourceTree = "<group>"; };
+		42522D5CE1B6218B126E562AF4B40366 /* EMSpinnerButton.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = EMSpinnerButton.framework; path = EMSpinnerButton.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4ECCFEBA530FA764A7FEDDD0209C555C /* RSFloatInputView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RSFloatInputView.swift; path = RSFloatInputView/Classes/RSFloatInputView.swift; sourceTree = "<group>"; };
+		58FE176CCA9283759CFF8B0B7C9685C2 /* RSFloatInputViewUtils.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RSFloatInputViewUtils.swift; path = RSFloatInputView/Classes/RSFloatInputViewUtils.swift; sourceTree = "<group>"; };
 		5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		5CD9F6E1A57FCFED414268FE4DF7C29D /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5EBCCC9F55CF43D5217FD85BD0276C75 /* EzPopup-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "EzPopup-prefix.pch"; sourceTree = "<group>"; };
+		70FC8F0E7D9E00CF2BE7D8812C04D210 /* EMSpinnerButton-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "EMSpinnerButton-dummy.m"; sourceTree = "<group>"; };
 		73A277714561EE9BD827A0723E5BF189 /* Pods-Investment.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Investment.debug.xcconfig"; sourceTree = "<group>"; };
-		76278C84ED8A511DFAF54DC6F24FFBC1 /* EMSpinnerButton.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = EMSpinnerButton.xcconfig; sourceTree = "<group>"; };
-		7C695294AA5E5A83043733487D446852 /* EMSpinnerButton.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = EMSpinnerButton.modulemap; sourceTree = "<group>"; };
+		7AE50ECA0F5A611D5B4ED1545AD97A2C /* EzPopup.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = EzPopup.xcconfig; sourceTree = "<group>"; };
+		806EFE11AA39AD13E6B918091D50D454 /* RSFloatInputView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = RSFloatInputView.framework; path = RSFloatInputView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8172ABA3CEDE8C746268188133B774FB /* Pods-Investment.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Investment.modulemap"; sourceTree = "<group>"; };
-		8347D5A02DCAA3B5EF81F562EC7A1CED /* EMSpinnerButton-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "EMSpinnerButton-dummy.m"; sourceTree = "<group>"; };
-		85979A8D6A1EC2570115750A140CCA4C /* EMSpinnerButton.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EMSpinnerButton.h; path = EMSpinnerButton/EMSpinnerButton.h; sourceTree = "<group>"; };
-		8697E3790869DEDD9D208F14F0E29245 /* EMSpinnerLayer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = EMSpinnerLayer.swift; path = EMSpinnerButton/EMSpinnerButton/EMSpinnerLayer.swift; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		919500FD71BBD1C7E53B81DA7B4845EF /* RSFloatInputView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RSFloatInputView-umbrella.h"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		946E0F329D0BCE61AB108389ED247FA0 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		95B30FDD31BB76C36EA478A54341BD85 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9F02E629C841C4A286D5E6CA893EFA6C /* EzPopup.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = EzPopup.framework; path = EzPopup.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A04E041C26DBF4B44D14477E8B0FD653 /* Pods-Investment-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Investment-resources.sh"; sourceTree = "<group>"; };
-		AF0606CC9BAF5004DA2ECCAEA761BD73 /* RSFloatInputView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = RSFloatInputView.modulemap; sourceTree = "<group>"; };
-		BC13996ECD90A72B640DA4D08ED8C80C /* RSFloatInputView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "RSFloatInputView-dummy.m"; sourceTree = "<group>"; };
-		C1CC3834B99B6C45AA7CC3D86913B476 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		C51C5AD8D0FCD299304904EFE89F6D79 /* RSFloatInputViewUtils.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RSFloatInputViewUtils.swift; path = RSFloatInputView/Classes/RSFloatInputViewUtils.swift; sourceTree = "<group>"; };
+		A3E45448C3C080F2A3C5DEE673F3D4EC /* RSFloatInputView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "RSFloatInputView-dummy.m"; sourceTree = "<group>"; };
+		A9403A546A5381E3E585BE67D73004AF /* EMSpinnerButton.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EMSpinnerButton.h; path = EMSpinnerButton/EMSpinnerButton.h; sourceTree = "<group>"; };
+		AF0C4D233C38245EACF314ACCA5044ED /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BE69671C834B4939421573573C0FEF7E /* Pods_Investment.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Investment.framework; path = "Pods-Investment.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA3BD4F045F9CAD57CD2C01B17FF81A2 /* RSFloatInputView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RSFloatInputView-prefix.pch"; sourceTree = "<group>"; };
+		CA95345356E61222EC0137C4FA37FAB4 /* EMSpinnerButton.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = EMSpinnerButton.modulemap; sourceTree = "<group>"; };
 		D00F41CFAEB04513ECDB93B7B946AFA0 /* Pods-Investment.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Investment.release.xcconfig"; sourceTree = "<group>"; };
+		D545A63A88C94CAC431ECD7A9E4AF19E /* PopupViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PopupViewController.swift; path = EzPopup/Classes/PopupViewController.swift; sourceTree = "<group>"; };
 		D5E3A19B2930C810DDC433AE451736BA /* Pods-Investment-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Investment-umbrella.h"; sourceTree = "<group>"; };
+		D7C289AB2C381987AC86ADEC43A81FD5 /* RSFloatInputView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = RSFloatInputView.xcconfig; sourceTree = "<group>"; };
 		DDD01D9A0E9A0F811116C9B3C34E659A /* Pods-Investment-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Investment-dummy.m"; sourceTree = "<group>"; };
+		E10B65E79F6692269EF4423BEC93D3C8 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E31263DC4FBAE71EBC023E8B153F0DBB /* Pods-Investment-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Investment-frameworks.sh"; sourceTree = "<group>"; };
 		F2DB76560B66B0EF20D6D4D09AD3C7FC /* Pods-Investment-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Investment-acknowledgements.markdown"; sourceTree = "<group>"; };
+		F7CE15FF19F45CA94CEE899F6E7A2D2F /* EzPopup.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = EzPopup.modulemap; sourceTree = "<group>"; };
 		FDA226183961FEB7788E4F3CC0983485 /* Pods-Investment-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Investment-acknowledgements.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -84,46 +103,70 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		2E6AB05471E5EDA26361E65760248D7C /* Frameworks */ = {
+		4B8F5CFA493F631D48C0D87F87DEE9B7 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F35F950BE1AA015E35CB93833B2387EB /* Foundation.framework in Frameworks */,
+				955B09C3CB7B2471123DE8D645155B49 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		5DEAA5A2CE6F24AAE535E7B48272E700 /* Frameworks */ = {
+		9227AE8EC161AC6A8354B6B81DF093A4 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A4A2B96C5D8B78AF0BD4485BD6A514B2 /* Foundation.framework in Frameworks */,
+				1C0770F93B04CAD896D33750C35E8D71 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D0DA56E5C315D80A45E4802B10CDA257 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				50E8A267B3364DFE5F921E9E5296665E /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		16E87EAB82DB73327EF0581C1F7387DE /* Pods */ = {
+		03A0E65627AFE3261857577A64573C80 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				B42F4D5BE8DC9033DF95F726DF96BC06 /* EMSpinnerButton */,
-				959A72D5CED4D383AB80435849156A6C /* RSFloatInputView */,
+				42522D5CE1B6218B126E562AF4B40366 /* EMSpinnerButton.framework */,
+				9F02E629C841C4A286D5E6CA893EFA6C /* EzPopup.framework */,
+				BE69671C834B4939421573573C0FEF7E /* Pods_Investment.framework */,
+				806EFE11AA39AD13E6B918091D50D454 /* RSFloatInputView.framework */,
 			);
-			name = Pods;
+			name = Products;
 			sourceTree = "<group>";
 		};
-		20371F1AEED43611BE7DFCBA9309AE7F /* Support Files */ = {
+		056C06C0A56D24C65FC403A6C652A0F7 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				5CD9F6E1A57FCFED414268FE4DF7C29D /* Info.plist */,
-				AF0606CC9BAF5004DA2ECCAEA761BD73 /* RSFloatInputView.modulemap */,
-				15E7AC977E114B7594EEC6311D9EEC9E /* RSFloatInputView.xcconfig */,
-				BC13996ECD90A72B640DA4D08ED8C80C /* RSFloatInputView-dummy.m */,
-				110F7AE08544C28C8738D8A888E8C3A7 /* RSFloatInputView-prefix.pch */,
-				3AC5477C314D46330161CD0D6CDDD6B9 /* RSFloatInputView-umbrella.h */,
+				AF0C4D233C38245EACF314ACCA5044ED /* Info.plist */,
+				2CD4B662B4697CFD9C42E240AACEB2E4 /* RSFloatInputView.modulemap */,
+				D7C289AB2C381987AC86ADEC43A81FD5 /* RSFloatInputView.xcconfig */,
+				A3E45448C3C080F2A3C5DEE673F3D4EC /* RSFloatInputView-dummy.m */,
+				CA3BD4F045F9CAD57CD2C01B17FF81A2 /* RSFloatInputView-prefix.pch */,
+				919500FD71BBD1C7E53B81DA7B4845EF /* RSFloatInputView-umbrella.h */,
 			);
 			name = "Support Files";
 			path = "../Target Support Files/RSFloatInputView";
+			sourceTree = "<group>";
+		};
+		0F797113E8143A05EAF31AA39D67D326 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				CA95345356E61222EC0137C4FA37FAB4 /* EMSpinnerButton.modulemap */,
+				101AECF2DD5F4AF29393E1EE4A8E66F8 /* EMSpinnerButton.xcconfig */,
+				70FC8F0E7D9E00CF2BE7D8812C04D210 /* EMSpinnerButton-dummy.m */,
+				3001DC600C377CBCBBE1A91EF0D32276 /* EMSpinnerButton-prefix.pch */,
+				05EF4561949AAA235D8E769769746FA4 /* EMSpinnerButton-umbrella.h */,
+				E10B65E79F6692269EF4423BEC93D3C8 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/EMSpinnerButton";
 			sourceTree = "<group>";
 		};
 		5E0D919E635D23B70123790B8308F8EF /* iOS */ = {
@@ -132,16 +175,6 @@
 				5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */,
 			);
 			name = iOS;
-			sourceTree = "<group>";
-		};
-		63FB1C7587CCAEA15BBE7BE8D5F55351 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				318E8F14ADE854154376C9B285A5FC06 /* EMSpinnerButton.framework */,
-				38C8EA79FAA219F7529F39A3F1650544 /* Pods_Investment.framework */,
-				3B1EF100104DEBF1C404C3DEEF5C6FD4 /* RSFloatInputView.framework */,
-			);
-			name = Products;
 			sourceTree = "<group>";
 		};
 		73A7C6973F4AA3383F5B1480D6501506 /* Pods-Investment */ = {
@@ -162,36 +195,52 @@
 			path = "Target Support Files/Pods-Investment";
 			sourceTree = "<group>";
 		};
+		77E1BF869C781BD42E68842C4E70D8CB /* RSFloatInputView */ = {
+			isa = PBXGroup;
+			children = (
+				4ECCFEBA530FA764A7FEDDD0209C555C /* RSFloatInputView.swift */,
+				58FE176CCA9283759CFF8B0B7C9685C2 /* RSFloatInputViewUtils.swift */,
+				056C06C0A56D24C65FC403A6C652A0F7 /* Support Files */,
+			);
+			name = RSFloatInputView;
+			path = RSFloatInputView;
+			sourceTree = "<group>";
+		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
 				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
-				16E87EAB82DB73327EF0581C1F7387DE /* Pods */,
-				63FB1C7587CCAEA15BBE7BE8D5F55351 /* Products */,
+				E335E66A2299479DC8D2500BB1E2BE7D /* Pods */,
+				03A0E65627AFE3261857577A64573C80 /* Products */,
 				CA8B2863BE13FFF91EE28BD5A2B5B9F6 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		959A72D5CED4D383AB80435849156A6C /* RSFloatInputView */ = {
+		9AF7802CF3AD489EFC4B561A17B834DE /* EMSpinnerButton */ = {
 			isa = PBXGroup;
 			children = (
-				360527394EC075BD33DA5F54FA72949E /* RSFloatInputView.swift */,
-				C51C5AD8D0FCD299304904EFE89F6D79 /* RSFloatInputViewUtils.swift */,
-				20371F1AEED43611BE7DFCBA9309AE7F /* Support Files */,
+				A9403A546A5381E3E585BE67D73004AF /* EMSpinnerButton.h */,
+				00B026207C94CCD8B04ED169C6951A6A /* EMSpinnerButton.swift */,
+				0F0F094A59B9BC9DDF96A7D55862C9F7 /* EMSpinnerLayer.swift */,
+				0F797113E8143A05EAF31AA39D67D326 /* Support Files */,
 			);
-			path = RSFloatInputView;
+			name = EMSpinnerButton;
+			path = EMSpinnerButton;
 			sourceTree = "<group>";
 		};
-		B42F4D5BE8DC9033DF95F726DF96BC06 /* EMSpinnerButton */ = {
+		B5D9DFFDE95E575E294CAAB6BA0C8E5A /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				85979A8D6A1EC2570115750A140CCA4C /* EMSpinnerButton.h */,
-				55614C1105C5D8C4A238BD6025D39BB7 /* EMSpinnerButton.swift */,
-				8697E3790869DEDD9D208F14F0E29245 /* EMSpinnerLayer.swift */,
-				C51275E07A7659B3C833D83BADC988C4 /* Support Files */,
+				F7CE15FF19F45CA94CEE899F6E7A2D2F /* EzPopup.modulemap */,
+				7AE50ECA0F5A611D5B4ED1545AD97A2C /* EzPopup.xcconfig */,
+				06B783738650422D3EBEA157FA7EBB53 /* EzPopup-dummy.m */,
+				5EBCCC9F55CF43D5217FD85BD0276C75 /* EzPopup-prefix.pch */,
+				06404CF3577DBD0B05D13B077A25ADFA /* EzPopup-umbrella.h */,
+				95B30FDD31BB76C36EA478A54341BD85 /* Info.plist */,
 			);
-			path = EMSpinnerButton;
+			name = "Support Files";
+			path = "../Target Support Files/EzPopup";
 			sourceTree = "<group>";
 		};
 		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
@@ -202,20 +251,6 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		C51275E07A7659B3C833D83BADC988C4 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				7C695294AA5E5A83043733487D446852 /* EMSpinnerButton.modulemap */,
-				76278C84ED8A511DFAF54DC6F24FFBC1 /* EMSpinnerButton.xcconfig */,
-				8347D5A02DCAA3B5EF81F562EC7A1CED /* EMSpinnerButton-dummy.m */,
-				1FD8C4D4CA734DD187FD326549B4176D /* EMSpinnerButton-prefix.pch */,
-				26CB4191548B8FA9421B390CF4DD6713 /* EMSpinnerButton-umbrella.h */,
-				C1CC3834B99B6C45AA7CC3D86913B476 /* Info.plist */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/EMSpinnerButton";
-			sourceTree = "<group>";
-		};
 		CA8B2863BE13FFF91EE28BD5A2B5B9F6 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -224,22 +259,42 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
+		E335E66A2299479DC8D2500BB1E2BE7D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9AF7802CF3AD489EFC4B561A17B834DE /* EMSpinnerButton */,
+				F283499ACD9DC169C2F03A17C477A9F5 /* EzPopup */,
+				77E1BF869C781BD42E68842C4E70D8CB /* RSFloatInputView */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		F283499ACD9DC169C2F03A17C477A9F5 /* EzPopup */ = {
+			isa = PBXGroup;
+			children = (
+				D545A63A88C94CAC431ECD7A9E4AF19E /* PopupViewController.swift */,
+				B5D9DFFDE95E575E294CAAB6BA0C8E5A /* Support Files */,
+			);
+			name = EzPopup;
+			path = EzPopup;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		15E384E04F3C05F9BBAC100FE0D32027 /* Headers */ = {
+		30C128EAA3C3DE2139DB65EAD7F3FFE1 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1F2287AC26562A596CC7053EDADB3927 /* RSFloatInputView-umbrella.h in Headers */,
+				7EFDB7F4A273208756762EE13C22C2DA /* Pods-Investment-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		25D041BE8D4D6E945BBE954ADB6B0470 /* Headers */ = {
+		30C8CD0F2BC808D9165DCB03A50576C9 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3F90915B0F5A4EDE47305FCA42A2150A /* Pods-Investment-umbrella.h in Headers */,
+				1ADD4D4931246D6C4DCF0EC756FB01E6 /* RSFloatInputView-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -252,37 +307,64 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		D741D8F38D30F03E67F859DAEEB9ECAA /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C7452CB9BFB4232680B7AB95E0BB3041 /* EzPopup-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		15C3758A570E4A39673333C39F0108DD /* Pods-Investment */ = {
+		333537E1EE5FAA493541A6F457F0DF10 /* Pods-Investment */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 1D9E12E6911B6D6CD78DD4564D71DDBF /* Build configuration list for PBXNativeTarget "Pods-Investment" */;
+			buildConfigurationList = 8E957646F54283EB6B27D5AC8CC34577 /* Build configuration list for PBXNativeTarget "Pods-Investment" */;
 			buildPhases = (
-				25D041BE8D4D6E945BBE954ADB6B0470 /* Headers */,
-				FAE8FEE5E9831C21331013843C34D5F5 /* Sources */,
-				2E6AB05471E5EDA26361E65760248D7C /* Frameworks */,
-				3D996CEC5BF934DFA40C5BF6853B27AD /* Resources */,
+				30C128EAA3C3DE2139DB65EAD7F3FFE1 /* Headers */,
+				C3829D2E29F4E01A2501E57C219886CF /* Sources */,
+				D0DA56E5C315D80A45E4802B10CDA257 /* Frameworks */,
+				0F6FBCA9CB5EECA20B227C4B32109631 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				2721681E99DE7062B6606543E6F89854 /* PBXTargetDependency */,
-				921B96EBF419764F7336045669326208 /* PBXTargetDependency */,
+				160C7D7F851D8C97148D4DC2E82D0622 /* PBXTargetDependency */,
+				27F93E1043768EF6AF67F4F3596B7082 /* PBXTargetDependency */,
+				8C790E6BFA6E972891CCB866A5CE372B /* PBXTargetDependency */,
 			);
 			name = "Pods-Investment";
 			productName = "Pods-Investment";
-			productReference = 38C8EA79FAA219F7529F39A3F1650544 /* Pods_Investment.framework */;
+			productReference = BE69671C834B4939421573573C0FEF7E /* Pods_Investment.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		3F28BB8A775C41C1E9D05895CE45C161 /* RSFloatInputView */ = {
+		420A71656F82FD270F2F01D994591F01 /* EzPopup */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 21549EF3FD26B72AA0802EC4C268C5FB /* Build configuration list for PBXNativeTarget "RSFloatInputView" */;
+			buildConfigurationList = EA49EA781332EB5201C7E1647C736107 /* Build configuration list for PBXNativeTarget "EzPopup" */;
 			buildPhases = (
-				15E384E04F3C05F9BBAC100FE0D32027 /* Headers */,
-				8D417E05CFC19B7897F3FDD13CD020AA /* Sources */,
-				5DEAA5A2CE6F24AAE535E7B48272E700 /* Frameworks */,
-				EE454E20F26DC9B14869C91C25178857 /* Resources */,
+				D741D8F38D30F03E67F859DAEEB9ECAA /* Headers */,
+				4D55DC67C595289D5FA93356353B2935 /* Sources */,
+				9227AE8EC161AC6A8354B6B81DF093A4 /* Frameworks */,
+				EE0E11E99AF65EF6759B49009EE26B9F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EzPopup;
+			productName = EzPopup;
+			productReference = 9F02E629C841C4A286D5E6CA893EFA6C /* EzPopup.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		50B5E100B1F2296D6F073D8448776DEE /* RSFloatInputView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F1B17D7267FB256D86347E10FDAEFD5A /* Build configuration list for PBXNativeTarget "RSFloatInputView" */;
+			buildPhases = (
+				30C8CD0F2BC808D9165DCB03A50576C9 /* Headers */,
+				5B1EC96734B1C21D5C6C6E66EC0130C8 /* Sources */,
+				4B8F5CFA493F631D48C0D87F87DEE9B7 /* Frameworks */,
+				EF011CF17FCBEE047FCA96084DA4AB45 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -290,7 +372,7 @@
 			);
 			name = RSFloatInputView;
 			productName = RSFloatInputView;
-			productReference = 3B1EF100104DEBF1C404C3DEEF5C6FD4 /* RSFloatInputView.framework */;
+			productReference = 806EFE11AA39AD13E6B918091D50D454 /* RSFloatInputView.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		A0C0A18A908C6D5A03C4DAA77582B9F0 /* EMSpinnerButton */ = {
@@ -308,7 +390,7 @@
 			);
 			name = EMSpinnerButton;
 			productName = EMSpinnerButton;
-			productReference = 318E8F14ADE854154376C9B285A5FC06 /* EMSpinnerButton.framework */;
+			productReference = 42522D5CE1B6218B126E562AF4B40366 /* EMSpinnerButton.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -328,19 +410,20 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = 63FB1C7587CCAEA15BBE7BE8D5F55351 /* Products */;
+			productRefGroup = 03A0E65627AFE3261857577A64573C80 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				A0C0A18A908C6D5A03C4DAA77582B9F0 /* EMSpinnerButton */,
-				15C3758A570E4A39673333C39F0108DD /* Pods-Investment */,
-				3F28BB8A775C41C1E9D05895CE45C161 /* RSFloatInputView */,
+				420A71656F82FD270F2F01D994591F01 /* EzPopup */,
+				333537E1EE5FAA493541A6F457F0DF10 /* Pods-Investment */,
+				50B5E100B1F2296D6F073D8448776DEE /* RSFloatInputView */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		3D996CEC5BF934DFA40C5BF6853B27AD /* Resources */ = {
+		0F6FBCA9CB5EECA20B227C4B32109631 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -354,7 +437,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		EE454E20F26DC9B14869C91C25178857 /* Resources */ = {
+		EE0E11E99AF65EF6759B49009EE26B9F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF011CF17FCBEE047FCA96084DA4AB45 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -374,48 +464,61 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		8D417E05CFC19B7897F3FDD13CD020AA /* Sources */ = {
+		4D55DC67C595289D5FA93356353B2935 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CE14859D2FE9B2425149A5BF6FC9D0D0 /* RSFloatInputView-dummy.m in Sources */,
-				22394717B98A01E8ABD8F3F0DD233219 /* RSFloatInputView.swift in Sources */,
-				10B0D9289FE76E2D0DC16222187565D0 /* RSFloatInputViewUtils.swift in Sources */,
+				A39865E458B42CC9175BC70895255BAD /* EzPopup-dummy.m in Sources */,
+				9B66E91F224B83EB6A466F2C23D6139E /* PopupViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		FAE8FEE5E9831C21331013843C34D5F5 /* Sources */ = {
+		5B1EC96734B1C21D5C6C6E66EC0130C8 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B654F2B6C438EA7346BB6DD99E139DDA /* Pods-Investment-dummy.m in Sources */,
+				C7582F8DCEBDA1A4A8E201CF9446C274 /* RSFloatInputView-dummy.m in Sources */,
+				784C1FE98FF2A61C23A2F57F9FEF6ADF /* RSFloatInputView.swift in Sources */,
+				54D5586112A19A87677ADC5423F47DC1 /* RSFloatInputViewUtils.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C3829D2E29F4E01A2501E57C219886CF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1AF7A1F2E370E0C2D68620CCA5BD4FB2 /* Pods-Investment-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		2721681E99DE7062B6606543E6F89854 /* PBXTargetDependency */ = {
+		160C7D7F851D8C97148D4DC2E82D0622 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = EMSpinnerButton;
 			target = A0C0A18A908C6D5A03C4DAA77582B9F0 /* EMSpinnerButton */;
-			targetProxy = 28F12E9CF51E8650F594E46DE6773E7C /* PBXContainerItemProxy */;
+			targetProxy = 9A2F80300BAED2B4CBAA571ED5833C7F /* PBXContainerItemProxy */;
 		};
-		921B96EBF419764F7336045669326208 /* PBXTargetDependency */ = {
+		27F93E1043768EF6AF67F4F3596B7082 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = EzPopup;
+			target = 420A71656F82FD270F2F01D994591F01 /* EzPopup */;
+			targetProxy = 3F55DD89B31759C083100FEE931FF0CE /* PBXContainerItemProxy */;
+		};
+		8C790E6BFA6E972891CCB866A5CE372B /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = RSFloatInputView;
-			target = 3F28BB8A775C41C1E9D05895CE45C161 /* RSFloatInputView */;
-			targetProxy = 4BDA2FD0F2F0DF1266C1BB181DF03A75 /* PBXContainerItemProxy */;
+			target = 50B5E100B1F2296D6F073D8448776DEE /* RSFloatInputView */;
+			targetProxy = 1E822BE017E5A2B2D8F906B1F61B5232 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		269C10A9DA5C7D013E5E9BC708020B81 /* Release */ = {
+		2287834345EB1B1DC73A23BBF9CE5B03 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D00F41CFAEB04513ECDB93B7B946AFA0 /* Pods-Investment.release.xcconfig */;
+			baseConfigurationReference = 7AE50ECA0F5A611D5B4ED1545AD97A2C /* EzPopup.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -425,30 +528,32 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-Investment/Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/EzPopup/EzPopup-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/EzPopup/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-Investment/Pods-Investment.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/EzPopup/EzPopup.modulemap";
+				PRODUCT_MODULE_NAME = EzPopup;
+				PRODUCT_NAME = EzPopup;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Release;
+			name = Debug;
 		};
-		39A5583A880A89A2C4C1E262F83C039C /* Release */ = {
+		241869AD50955A1338DAC12A3B7E7DCF /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 15E7AC977E114B7594EEC6311D9EEC9E /* RSFloatInputView.xcconfig */;
+			baseConfigurationReference = D7C289AB2C381987AC86ADEC43A81FD5 /* RSFloatInputView.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -463,14 +568,19 @@
 				INFOPLIST_FILE = "Target Support Files/RSFloatInputView/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				MODULEMAP_FILE = "Target Support Files/RSFloatInputView/RSFloatInputView.modulemap";
 				PRODUCT_MODULE_NAME = RSFloatInputView;
 				PRODUCT_NAME = RSFloatInputView;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				SWIFT_VERSION = 4.1;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
@@ -540,7 +650,7 @@
 		};
 		4C128EEC5B829D62AEAB62C812197857 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 76278C84ED8A511DFAF54DC6F24FFBC1 /* EMSpinnerButton.xcconfig */;
+			baseConfigurationReference = 101AECF2DD5F4AF29393E1EE4A8E66F8 /* EMSpinnerButton.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -555,15 +665,20 @@
 				INFOPLIST_FILE = "Target Support Files/EMSpinnerButton/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				MODULEMAP_FILE = "Target Support Files/EMSpinnerButton/EMSpinnerButton.modulemap";
 				PRODUCT_MODULE_NAME = EMSpinnerButton;
 				PRODUCT_NAME = EMSpinnerButton;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				SWIFT_VERSION = 4.0;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -571,7 +686,7 @@
 			};
 			name = Release;
 		};
-		61D410BADC1A0BA5BC9AF8F82EF5B259 /* Debug */ = {
+		75D7B0776B25337417D90C7CAF8EA189 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 73A277714561EE9BD827A0723E5BF189 /* Pods-Investment.debug.xcconfig */;
 			buildSettings = {
@@ -589,7 +704,11 @@
 				INFOPLIST_FILE = "Target Support Files/Pods-Investment/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-Investment/Pods-Investment.modulemap";
 				OTHER_LDFLAGS = "";
@@ -671,9 +790,9 @@
 			};
 			name = Debug;
 		};
-		CF082D33961E6C44B4139B37A39FED0E /* Debug */ = {
+		875CEA0CCF71D6C80336A66A642BA9E2 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 15E7AC977E114B7594EEC6311D9EEC9E /* RSFloatInputView.xcconfig */;
+			baseConfigurationReference = D7C289AB2C381987AC86ADEC43A81FD5 /* RSFloatInputView.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -688,7 +807,11 @@
 				INFOPLIST_FILE = "Target Support Files/RSFloatInputView/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				MODULEMAP_FILE = "Target Support Files/RSFloatInputView/RSFloatInputView.modulemap";
 				PRODUCT_MODULE_NAME = RSFloatInputView;
 				PRODUCT_NAME = RSFloatInputView;
@@ -703,9 +826,47 @@
 			};
 			name = Debug;
 		};
+		88F9D4E4DF15E5375CE73E2CC95E92AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7AE50ECA0F5A611D5B4ED1545AD97A2C /* EzPopup.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/EzPopup/EzPopup-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/EzPopup/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/EzPopup/EzPopup.modulemap";
+				PRODUCT_MODULE_NAME = EzPopup;
+				PRODUCT_NAME = EzPopup;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 		F21E219F05E645D6663BD8BC5743A048 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 76278C84ED8A511DFAF54DC6F24FFBC1 /* EMSpinnerButton.xcconfig */;
+			baseConfigurationReference = 101AECF2DD5F4AF29393E1EE4A8E66F8 /* EMSpinnerButton.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -720,7 +881,11 @@
 				INFOPLIST_FILE = "Target Support Files/EMSpinnerButton/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				MODULEMAP_FILE = "Target Support Files/EMSpinnerButton/EMSpinnerButton.modulemap";
 				PRODUCT_MODULE_NAME = EMSpinnerButton;
 				PRODUCT_NAME = EMSpinnerButton;
@@ -728,34 +893,57 @@
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
 		};
+		FC731824CD6EFBA0B1E711DD1F5FEFEC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D00F41CFAEB04513ECDB93B7B946AFA0 /* Pods-Investment.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Investment/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Investment/Pods-Investment.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		1D9E12E6911B6D6CD78DD4564D71DDBF /* Build configuration list for PBXNativeTarget "Pods-Investment" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				61D410BADC1A0BA5BC9AF8F82EF5B259 /* Debug */,
-				269C10A9DA5C7D013E5E9BC708020B81 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		21549EF3FD26B72AA0802EC4C268C5FB /* Build configuration list for PBXNativeTarget "RSFloatInputView" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				CF082D33961E6C44B4139B37A39FED0E /* Debug */,
-				39A5583A880A89A2C4C1E262F83C039C /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -765,11 +953,38 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
+		8E957646F54283EB6B27D5AC8CC34577 /* Build configuration list for PBXNativeTarget "Pods-Investment" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				75D7B0776B25337417D90C7CAF8EA189 /* Debug */,
+				FC731824CD6EFBA0B1E711DD1F5FEFEC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		E072E0C9B7FE5C337617FB4C3F0B3CBE /* Build configuration list for PBXNativeTarget "EMSpinnerButton" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				F21E219F05E645D6663BD8BC5743A048 /* Debug */,
 				4C128EEC5B829D62AEAB62C812197857 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EA49EA781332EB5201C7E1647C736107 /* Build configuration list for PBXNativeTarget "EzPopup" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2287834345EB1B1DC73A23BBF9CE5B03 /* Debug */,
+				88F9D4E4DF15E5375CE73E2CC95E92AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F1B17D7267FB256D86347E10FDAEFD5A /* Build configuration list for PBXNativeTarget "RSFloatInputView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				875CEA0CCF71D6C80336A66A642BA9E2 /* Debug */,
+				241869AD50955A1338DAC12A3B7E7DCF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

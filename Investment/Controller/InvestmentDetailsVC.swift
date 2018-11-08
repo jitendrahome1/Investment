@@ -7,21 +7,22 @@
 //
 
 import UIKit
-
-class InvestmentDetailsVC: BaseViewController, AuthenticationTouchID {
+import EzPopup
+class InvestmentDetailsVC: BaseViewController, AuthenticationTouchID,EditableAccessoryDelegate {
     
     @IBOutlet weak var textViewEdit: JAEditableTextView!
-    
+    let editableAccessory = EditableAccessoryView()
     var _title: String?
     override func viewDidLoad() {
         super.viewDidLoad()
         self.setupUI()
         build()
- 
-       // textViewArea.setContentOffset(.zero, animated: true)
+        
+        // textViewArea.setContentOffset(.zero, animated: true)
     }
     override func viewDidAppear(_ animated: Bool) {
         super.viewDidAppear(animated)
+        editableAccessory.delegate = self
         
     }
     override func setupUI() {
@@ -35,9 +36,18 @@ class InvestmentDetailsVC: BaseViewController, AuthenticationTouchID {
     }
     override func build() {
         DispatchQueue.main.asyncAfter(deadline: .now() + 0.1) {
-            self.authenticationWithTouchID()
+            //self.authenticationWithTouchID()
+            self.setAccessoryView()
+        }
+        
+    }
+    func setAccessoryView() {
+        guard let accessoryView: EditableAccessoryView  =  UIView.fromNib() else {
+            return
             
         }
+        accessoryView.delegate = self
+        self.textViewEdit.inputAccessoryView = accessoryView
         
     }
     
@@ -45,9 +55,25 @@ class InvestmentDetailsVC: BaseViewController, AuthenticationTouchID {
 // AuthenticationTouchID Delegate
 extension InvestmentDetailsVC {
     func didAuthenticationScucces(succes: Bool) {
-    
+        
     }
     
-   
+    
+}
+// EditableAccessoryDelegate
+extension InvestmentDetailsVC {
+    func didTapSelectColorAction() {
+          self.textViewEdit.resignFirstResponder
+        ColorPickupVC.showColorPopUp(self) { (color) in
+            if let _ = self.textViewEdit.text {
+                let attributedText = self.textViewEdit.attributedText
+                self.textViewEdit.textColor = color
+                self.textViewEdit.attributedText = attributedText
+            }
+        }
+       
+    }
+    
+    
 }
 

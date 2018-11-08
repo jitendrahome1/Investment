@@ -9,4 +9,5 @@ target 'Investment' do
 
   pod 'RSFloatInputView'
   pod 'EMSpinnerButton'
+  pod 'EzPopup'
 end

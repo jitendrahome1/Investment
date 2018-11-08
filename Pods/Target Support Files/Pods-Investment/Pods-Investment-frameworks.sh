@@ -144,10 +144,12 @@ strip_invalid_archs() {
 
 if [[ "$CONFIGURATION" == "Debug" ]]; then
   install_framework "${BUILT_PRODUCTS_DIR}/EMSpinnerButton/EMSpinnerButton.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/EzPopup/EzPopup.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/RSFloatInputView/RSFloatInputView.framework"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
   install_framework "${BUILT_PRODUCTS_DIR}/EMSpinnerButton/EMSpinnerButton.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/EzPopup/EzPopup.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/RSFloatInputView/RSFloatInputView.framework"
 fi
 if [ "${COCOAPODS_PARALLEL_CODE_SIGN}" == "true" ]; then

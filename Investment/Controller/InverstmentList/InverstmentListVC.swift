@@ -36,6 +36,7 @@ extension InverstmentListVC {
     private func cellConfiguration() {
         tblInverstment.register(UINib.init(nibName: "InvestmentCell", bundle: nil), forCellReuseIdentifier: "InvestmentCell")
     }
+    
 }
 
 // MARK:- TableView Delegte and DataScource

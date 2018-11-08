@@ -8,9 +8,14 @@
 
 import Foundation
 import UIKit
+public protocol EditableAccessoryDelegate {
+   
+    func didTapSelectColorAction()-> ()
+    
+}
 
 class EditableAccessoryView : UIView  {
-    
+      var delegate: EditableAccessoryDelegate?
     override func awakeFromNib() {
       
     }
@@ -34,7 +39,17 @@ class EditableAccessoryView : UIView  {
         hideAccessoryView()
     }
     
+    @IBAction func didTapColorSelectAction(_ sender: UIButton) {
+   
+        self.delegate?.didTapSelectColorAction()
+       
+    
+    }
     @IBAction func didTapFontAction(_ sender: UIButton) {
         showAccessoryView()
     }
+    
+    
 }
+
+

@@ -36,6 +36,46 @@
             </objects>
             <point key="canvasLocation" x="-383" y="-436"/>
         </scene>
+        <!--Color PickupVC-->
+        <scene sceneID="uyo-3X-qtu">
+            <objects>
+                <viewController storyboardIdentifier="ColorPickupVC" useStoryboardIdentifierAsRestorationIdentifier="YES" id="lTu-Gy-wDX" customClass="ColorPickupVC" customModule="Investment" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="zUj-vE-lge">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view alpha="0.55000000000000004" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="qcA-Zr-alc">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="oaj-C2-FLd" customClass="RotatingColorWheel" customModule="Investment">
+                                <rect key="frame" x="46" y="208" width="283" height="251"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="251" id="8cq-JE-A4E"/>
+                                    <constraint firstAttribute="width" constant="283" id="YQh-eW-EPK"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <constraints>
+                            <constraint firstItem="qcA-Zr-alc" firstAttribute="bottom" secondItem="FDo-UM-ucY" secondAttribute="bottom" id="IE6-IG-hjE"/>
+                            <constraint firstItem="qcA-Zr-alc" firstAttribute="top" secondItem="zUj-vE-lge" secondAttribute="top" id="INl-10-LRV"/>
+                            <constraint firstItem="oaj-C2-FLd" firstAttribute="centerY" secondItem="zUj-vE-lge" secondAttribute="centerY" id="RvX-iU-Qxd"/>
+                            <constraint firstItem="qcA-Zr-alc" firstAttribute="trailing" secondItem="FDo-UM-ucY" secondAttribute="trailing" id="UtH-qe-lkP"/>
+                            <constraint firstItem="qcA-Zr-alc" firstAttribute="leading" secondItem="FDo-UM-ucY" secondAttribute="leading" id="gSy-B1-hcX"/>
+                            <constraint firstItem="oaj-C2-FLd" firstAttribute="centerX" secondItem="zUj-vE-lge" secondAttribute="centerX" id="oV2-hu-3kd"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="FDo-UM-ucY"/>
+                    </view>
+                    <connections>
+                        <outlet property="viewBG" destination="qcA-Zr-alc" id="zHY-XI-M0j"/>
+                        <outlet property="viewColorWheel" destination="oaj-C2-FLd" id="8Rj-sh-aVI"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Ahj-Of-zEI" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="256.80000000000001" y="-447.52623688155927"/>
+        </scene>
     </scenes>
     <resources>
         <image name="bg1" width="320" height="568"/>

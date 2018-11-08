@@ -16,7 +16,7 @@ class JAEditableTextView : UITextView, UITextViewDelegate {
         let notificationCenter = NotificationCenter.default
         notificationCenter.addObserver(self, selector: #selector(adjustForKeyboard), name: UIResponder.keyboardWillHideNotification, object: nil)
         notificationCenter.addObserver(self, selector: #selector(adjustForKeyboard), name: UIResponder.keyboardWillChangeFrameNotification, object: nil)
-        self.setAccessoryView()
+//        self.setAccessoryView()
     }
     
     
@@ -49,14 +49,7 @@ extension JAEditableTextView {
         let selectedRange = self.selectedRange
         self.scrollRangeToVisible(selectedRange)
     }
-    func setAccessoryView() {
-        guard let accessoryView: EditableAccessoryView  =  UIView.fromNib() else {
-            return
-            
-        }
-        self.inputAccessoryView = accessoryView
-        
-    }
+
     
 }
 
@@ -70,7 +63,6 @@ extension JAEditableTextView {
     func textViewDidChange(_ textView: UITextView) {
     }
 }
-
 
 
 
