@@ -14,10 +14,10 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "0AE6C0D99EDD49082890696F11A07991"
-               BlueprintName = "RSFloatInputView"
+               BlueprintIdentifier = "763443D91DE44A0D98F47B216D3313A8"
+               BlueprintName = "WOWMarkSlider"
                ReferencedContainer = "container:Pods.xcodeproj"
-               BuildableName = "RSFloatInputView.framework">
+               BuildableName = "WOWMarkSlider.framework">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>

@@ -266,7 +266,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="justified" translatesAutoresizingMaskIntoConstraints="NO" id="nRA-dk-Z4l" customClass="JAEditableTextView" customModule="Investment" customModuleProvider="target">
-                                <rect key="frame" x="0.0" y="0.0" width="375" height="637"/>
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="629"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="14"/>
@@ -275,17 +275,42 @@
                                     <outlet property="delegate" destination="crp-kI-P33" id="B5Z-W2-xmX"/>
                                 </connections>
                             </textView>
+                            <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="16" minValue="16" maxValue="40" translatesAutoresizingMaskIntoConstraints="NO" id="WN8-vb-Gfx" customClass="WOWMarkSlider" customModule="WOWMarkSlider">
+                                <rect key="frame" x="14" y="633" width="347" height="30"/>
+                                <color key="minimumTrackTintColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="maximumTrackTintColor" red="0.103120894" green="0.33333334329999997" blue="0.1612422802" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="thumbTintColor" red="0.65898235100000002" green="0.085640016819999998" blue="0.16590645749999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="markColor">
+                                        <color key="value" red="0.1688388126" green="0.75469577310000002" blue="0.74805987939999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="selectedBarColor">
+                                        <color key="value" red="0.85133986399999995" green="0.074103631380000007" blue="0.2957875049" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="unselectedBarColor">
+                                        <color key="value" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="handlerColor">
+                                        <color key="value" red="0.071797907669999994" green="0.56164993519999995" blue="0.37132845720000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </slider>
                         </subviews>
                         <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
                             <constraint firstItem="nRA-dk-Z4l" firstAttribute="top" secondItem="vsl-p6-yKX" secondAttribute="top" id="6uC-3q-VoT"/>
-                            <constraint firstItem="FFF-gX-Ulc" firstAttribute="bottom" secondItem="nRA-dk-Z4l" secondAttribute="bottom" constant="30" id="UHD-HL-DqT"/>
+                            <constraint firstItem="FFF-gX-Ulc" firstAttribute="trailing" secondItem="WN8-vb-Gfx" secondAttribute="trailing" constant="16" id="EkB-r7-FVC"/>
+                            <constraint firstItem="WN8-vb-Gfx" firstAttribute="top" secondItem="nRA-dk-Z4l" secondAttribute="bottom" constant="4" id="NM5-pQ-szR"/>
+                            <constraint firstItem="FFF-gX-Ulc" firstAttribute="bottom" secondItem="nRA-dk-Z4l" secondAttribute="bottom" constant="38" id="UHD-HL-DqT"/>
                             <constraint firstItem="nRA-dk-Z4l" firstAttribute="leading" secondItem="FFF-gX-Ulc" secondAttribute="leading" id="dKn-Cg-pGp"/>
                             <constraint firstItem="nRA-dk-Z4l" firstAttribute="trailing" secondItem="FFF-gX-Ulc" secondAttribute="trailing" id="fnj-cA-EeH"/>
+                            <constraint firstItem="FFF-gX-Ulc" firstAttribute="bottom" secondItem="WN8-vb-Gfx" secondAttribute="bottom" constant="5" id="k1j-RJ-ogu"/>
+                            <constraint firstItem="WN8-vb-Gfx" firstAttribute="leading" secondItem="FFF-gX-Ulc" secondAttribute="leading" constant="16" id="wkc-mO-Ms7"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="FFF-gX-Ulc"/>
                     </view>
                     <connections>
+                        <outlet property="aSlider" destination="WN8-vb-Gfx" id="8yu-nn-nWM"/>
                         <outlet property="textViewEdit" destination="nRA-dk-Z4l" id="Byc-mJ-dWJ"/>
                     </connections>
                 </viewController>

@@ -59,8 +59,10 @@ extension JAEditableTextView {
     }
     
     func textViewDidEndEditing(_ textField: UITextView) {
+    
     }
     func textViewDidChange(_ textView: UITextView) {
+   
     }
 }
 

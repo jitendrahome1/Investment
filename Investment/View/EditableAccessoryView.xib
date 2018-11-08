@@ -38,7 +38,6 @@
                             <rect key="frame" x="200" y="0.0" width="24" height="24"/>
                             <state key="normal" image="font"/>
                             <connections>
-                                <action selector="didTapCloseAction:" destination="iN0-l3-epB" eventType="touchUpInside" id="O6L-gV-GDd"/>
                                 <action selector="didTapFontAction:" destination="iN0-l3-epB" eventType="touchUpInside" id="rXD-pO-TWj"/>
                             </connections>
                         </button>

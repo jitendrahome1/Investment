@@ -146,11 +146,13 @@ if [[ "$CONFIGURATION" == "Debug" ]]; then
   install_framework "${BUILT_PRODUCTS_DIR}/EMSpinnerButton/EMSpinnerButton.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/EzPopup/EzPopup.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/RSFloatInputView/RSFloatInputView.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/WOWMarkSlider/WOWMarkSlider.framework"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
   install_framework "${BUILT_PRODUCTS_DIR}/EMSpinnerButton/EMSpinnerButton.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/EzPopup/EzPopup.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/RSFloatInputView/RSFloatInputView.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/WOWMarkSlider/WOWMarkSlider.framework"
 fi
 if [ "${COCOAPODS_PARALLEL_CODE_SIGN}" == "true" ]; then
   wait

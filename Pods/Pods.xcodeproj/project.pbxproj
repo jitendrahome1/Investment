@@ -3,98 +3,135 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 46;
 	objects = {
 
 /* Begin PBXBuildFile section */
-		06BA7AEB0336943517682F63104B70F7 /* EMSpinnerButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00B026207C94CCD8B04ED169C6951A6A /* EMSpinnerButton.swift */; };
-		1ADD4D4931246D6C4DCF0EC756FB01E6 /* RSFloatInputView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 919500FD71BBD1C7E53B81DA7B4845EF /* RSFloatInputView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		1AF7A1F2E370E0C2D68620CCA5BD4FB2 /* Pods-Investment-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DDD01D9A0E9A0F811116C9B3C34E659A /* Pods-Investment-dummy.m */; };
+		06BA7AEB0336943517682F63104B70F7 /* EMSpinnerButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A974AC38F98BC6C4F64567D392AC369 /* EMSpinnerButton.swift */; };
+		074CF1E24DB429D2EC1B3986ABEF6C02 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
 		1C0770F93B04CAD896D33750C35E8D71 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
-		21A59FC01B6683538A5D156743AEB41E /* EMSpinnerButton-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 05EF4561949AAA235D8E769769746FA4 /* EMSpinnerButton-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		3664E840513CE375EADAD4E315F75774 /* EMSpinnerButton.h in Headers */ = {isa = PBXBuildFile; fileRef = A9403A546A5381E3E585BE67D73004AF /* EMSpinnerButton.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		50E8A267B3364DFE5F921E9E5296665E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
-		54D5586112A19A87677ADC5423F47DC1 /* RSFloatInputViewUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58FE176CCA9283759CFF8B0B7C9685C2 /* RSFloatInputViewUtils.swift */; };
+		21A59FC01B6683538A5D156743AEB41E /* EMSpinnerButton-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0B392C464360FD189F4A0121EE5EA473 /* EMSpinnerButton-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3664E840513CE375EADAD4E315F75774 /* EMSpinnerButton.h in Headers */ = {isa = PBXBuildFile; fileRef = A1C4BF83E89F01B415492DDB2B3A47F8 /* EMSpinnerButton.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		442DEDDA06987931197CE7B5C7D41CDB /* WOWMarkSlider-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 354D455022490B1FF4223CC30A0B5A63 /* WOWMarkSlider-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4F184C003DABF4BD0D5DABE50543E630 /* RSFloatInputView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A6AA14DAE0750A863B08BF91180A7D8 /* RSFloatInputView.swift */; };
+		5A25A2881D060B6628B9017A2C7D984E /* Pods-Investment-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D5E3A19B2930C810DDC433AE451736BA /* Pods-Investment-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5C5191521622F693405968F435F5C1DA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+		6415C254BEEA2CD02BBAA9528E82AAC4 /* WOWMarkSlider-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A61323F75C0F913EE098C0CD9EB55EAC /* WOWMarkSlider-dummy.m */; };
 		672E984B37D7BC5E1AF70827B61D1545 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
-		784C1FE98FF2A61C23A2F57F9FEF6ADF /* RSFloatInputView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ECCFEBA530FA764A7FEDDD0209C555C /* RSFloatInputView.swift */; };
-		7EFDB7F4A273208756762EE13C22C2DA /* Pods-Investment-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D5E3A19B2930C810DDC433AE451736BA /* Pods-Investment-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		955B09C3CB7B2471123DE8D645155B49 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
-		9B66E91F224B83EB6A466F2C23D6139E /* PopupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D545A63A88C94CAC431ECD7A9E4AF19E /* PopupViewController.swift */; };
-		A39865E458B42CC9175BC70895255BAD /* EzPopup-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 06B783738650422D3EBEA157FA7EBB53 /* EzPopup-dummy.m */; };
-		B083F28BA5F5C6CF135560E3024D5803 /* EMSpinnerButton-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 70FC8F0E7D9E00CF2BE7D8812C04D210 /* EMSpinnerButton-dummy.m */; };
-		B9551B82BF07EE0708552F8C05A29ED8 /* EMSpinnerLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F0F094A59B9BC9DDF96A7D55862C9F7 /* EMSpinnerLayer.swift */; };
-		C7452CB9BFB4232680B7AB95E0BB3041 /* EzPopup-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 06404CF3577DBD0B05D13B077A25ADFA /* EzPopup-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C7582F8DCEBDA1A4A8E201CF9446C274 /* RSFloatInputView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A3E45448C3C080F2A3C5DEE673F3D4EC /* RSFloatInputView-dummy.m */; };
+		9813ABA91761933FC7567A17BCAB53CF /* RSFloatInputView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0CAA81CEED7432E601FD998DA251E2F8 /* RSFloatInputView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9B66E91F224B83EB6A466F2C23D6139E /* PopupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20CD973A128770A9738F45FEC50AD46E /* PopupViewController.swift */; };
+		9EE44AFBFB673C368BDC48137D979C07 /* RSFloatInputViewUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 582ACBD2DF332D95EEA845F47F1E42BD /* RSFloatInputViewUtils.swift */; };
+		9FE3D5D6E1EF9147DD9719E5B7050297 /* RSFloatInputView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F7CB8E101155C2F85D780D0DB5BEC98C /* RSFloatInputView-dummy.m */; };
+		A39865E458B42CC9175BC70895255BAD /* EzPopup-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7422AA685F13B7E7D4B45244DED2558D /* EzPopup-dummy.m */; };
+		A737A7EED4C5756854784E44BCD0A5B2 /* WOWMarkSlider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B551B99B0B9C614E00333FC9A73611 /* WOWMarkSlider.swift */; };
+		A74140822C06FF8FC20482D7096A3ED0 /* Pods-Investment-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DDD01D9A0E9A0F811116C9B3C34E659A /* Pods-Investment-dummy.m */; };
+		B083F28BA5F5C6CF135560E3024D5803 /* EMSpinnerButton-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DF050EE3C3AE4E14A17ED805BBEA4264 /* EMSpinnerButton-dummy.m */; };
+		B9551B82BF07EE0708552F8C05A29ED8 /* EMSpinnerLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BA7E7A9B10E9861B17D3D1B1681FB0B /* EMSpinnerLayer.swift */; };
+		BD19318C016019D3B93174695642B826 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+		C7452CB9BFB4232680B7AB95E0BB3041 /* EzPopup-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4ED1BADB6444B6D608227B0B00DBBFE5 /* EzPopup-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D4EF4F2492B9F1ACFD6C53310158608D /* WOWTooltipView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B73C20A6E573949C42CE21EA033E731 /* WOWTooltipView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		1E822BE017E5A2B2D8F906B1F61B5232 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 50B5E100B1F2296D6F073D8448776DEE;
-			remoteInfo = RSFloatInputView;
-		};
-		3F55DD89B31759C083100FEE931FF0CE /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 420A71656F82FD270F2F01D994591F01;
-			remoteInfo = EzPopup;
-		};
-		9A2F80300BAED2B4CBAA571ED5833C7F /* PBXContainerItemProxy */ = {
+		0EA8BD45681BC4863106D41DB61011E2 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = A0C0A18A908C6D5A03C4DAA77582B9F0;
 			remoteInfo = EMSpinnerButton;
 		};
+		634F19ED236187F35394501EF362F84B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0AE6C0D99EDD49082890696F11A07991;
+			remoteInfo = RSFloatInputView;
+		};
+		7FB4593E636D60188250C2CAEFF4477A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 763443D91DE44A0D98F47B216D3313A8;
+			remoteInfo = WOWMarkSlider;
+		};
+		DD9AF477F4E6615A21F66F33475195D6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 420A71656F82FD270F2F01D994591F01;
+			remoteInfo = EzPopup;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		00B026207C94CCD8B04ED169C6951A6A /* EMSpinnerButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = EMSpinnerButton.swift; path = EMSpinnerButton/EMSpinnerButton/EMSpinnerButton.swift; sourceTree = "<group>"; };
-		05EF4561949AAA235D8E769769746FA4 /* EMSpinnerButton-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "EMSpinnerButton-umbrella.h"; sourceTree = "<group>"; };
-		06404CF3577DBD0B05D13B077A25ADFA /* EzPopup-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "EzPopup-umbrella.h"; sourceTree = "<group>"; };
-		06B783738650422D3EBEA157FA7EBB53 /* EzPopup-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "EzPopup-dummy.m"; sourceTree = "<group>"; };
-		0F0F094A59B9BC9DDF96A7D55862C9F7 /* EMSpinnerLayer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = EMSpinnerLayer.swift; path = EMSpinnerButton/EMSpinnerButton/EMSpinnerLayer.swift; sourceTree = "<group>"; };
-		101AECF2DD5F4AF29393E1EE4A8E66F8 /* EMSpinnerButton.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = EMSpinnerButton.xcconfig; sourceTree = "<group>"; };
-		2CD4B662B4697CFD9C42E240AACEB2E4 /* RSFloatInputView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = RSFloatInputView.modulemap; sourceTree = "<group>"; };
-		3001DC600C377CBCBBE1A91EF0D32276 /* EMSpinnerButton-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "EMSpinnerButton-prefix.pch"; sourceTree = "<group>"; };
-		42522D5CE1B6218B126E562AF4B40366 /* EMSpinnerButton.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = EMSpinnerButton.framework; path = EMSpinnerButton.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		4ECCFEBA530FA764A7FEDDD0209C555C /* RSFloatInputView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RSFloatInputView.swift; path = RSFloatInputView/Classes/RSFloatInputView.swift; sourceTree = "<group>"; };
-		58FE176CCA9283759CFF8B0B7C9685C2 /* RSFloatInputViewUtils.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RSFloatInputViewUtils.swift; path = RSFloatInputView/Classes/RSFloatInputViewUtils.swift; sourceTree = "<group>"; };
+		04B551B99B0B9C614E00333FC9A73611 /* WOWMarkSlider.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = WOWMarkSlider.swift; path = WOWMarkSlider/Classes/WOWMarkSlider.swift; sourceTree = "<group>"; };
+		0B392C464360FD189F4A0121EE5EA473 /* EMSpinnerButton-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "EMSpinnerButton-umbrella.h"; sourceTree = "<group>"; };
+		0B73C20A6E573949C42CE21EA033E731 /* WOWTooltipView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = WOWTooltipView.swift; path = WOWMarkSlider/Classes/WOWTooltipView.swift; sourceTree = "<group>"; };
+		0CAA81CEED7432E601FD998DA251E2F8 /* RSFloatInputView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RSFloatInputView-umbrella.h"; sourceTree = "<group>"; };
+		1E0C3ABAF48734A6C19323BAD9BAD41F /* WOWMarkSlider.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = WOWMarkSlider.modulemap; sourceTree = "<group>"; };
+		20CD973A128770A9738F45FEC50AD46E /* PopupViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PopupViewController.swift; path = EzPopup/Classes/PopupViewController.swift; sourceTree = "<group>"; };
+		2983F974617DA5CC6A7E9322ADB0ECEE /* Pods_Investment.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Investment.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2A974AC38F98BC6C4F64567D392AC369 /* EMSpinnerButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = EMSpinnerButton.swift; path = EMSpinnerButton/EMSpinnerButton/EMSpinnerButton.swift; sourceTree = "<group>"; };
+		2BA7E7A9B10E9861B17D3D1B1681FB0B /* EMSpinnerLayer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = EMSpinnerLayer.swift; path = EMSpinnerButton/EMSpinnerButton/EMSpinnerLayer.swift; sourceTree = "<group>"; };
+		30242391F1045835A4741B3B2E6EE5B3 /* RSFloatInputView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RSFloatInputView-prefix.pch"; sourceTree = "<group>"; };
+		354D455022490B1FF4223CC30A0B5A63 /* WOWMarkSlider-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WOWMarkSlider-umbrella.h"; sourceTree = "<group>"; };
+		461C87C232EE2A3FF206CD240FDDE1C7 /* WOWMarkSlider.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = WOWMarkSlider.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		49620252E7E9E8446F7BEAE64C00A302 /* EMSpinnerButton.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = EMSpinnerButton.xcconfig; sourceTree = "<group>"; };
+		4BE3DEC4F52CA6B0EE9118AC89DFE82D /* EzPopup.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = EzPopup.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4ED1BADB6444B6D608227B0B00DBBFE5 /* EzPopup-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "EzPopup-umbrella.h"; sourceTree = "<group>"; };
+		582ACBD2DF332D95EEA845F47F1E42BD /* RSFloatInputViewUtils.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RSFloatInputViewUtils.swift; path = RSFloatInputView/Classes/RSFloatInputViewUtils.swift; sourceTree = "<group>"; };
 		5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		5EBCCC9F55CF43D5217FD85BD0276C75 /* EzPopup-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "EzPopup-prefix.pch"; sourceTree = "<group>"; };
-		70FC8F0E7D9E00CF2BE7D8812C04D210 /* EMSpinnerButton-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "EMSpinnerButton-dummy.m"; sourceTree = "<group>"; };
+		5D60FAB9EF28AA4255C56B3821608446 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6A6AA14DAE0750A863B08BF91180A7D8 /* RSFloatInputView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RSFloatInputView.swift; path = RSFloatInputView/Classes/RSFloatInputView.swift; sourceTree = "<group>"; };
+		6AE5B654929A11A41BD6C127020B2641 /* RSFloatInputView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = RSFloatInputView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6D9700D33863C012CEE7A7264300B22E /* WOWMarkSlider.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = WOWMarkSlider.xcconfig; sourceTree = "<group>"; };
+		6E63B322F08CD33E4FEA0557FAA6D0A9 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		73A277714561EE9BD827A0723E5BF189 /* Pods-Investment.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Investment.debug.xcconfig"; sourceTree = "<group>"; };
-		7AE50ECA0F5A611D5B4ED1545AD97A2C /* EzPopup.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = EzPopup.xcconfig; sourceTree = "<group>"; };
-		806EFE11AA39AD13E6B918091D50D454 /* RSFloatInputView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = RSFloatInputView.framework; path = RSFloatInputView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7422AA685F13B7E7D4B45244DED2558D /* EzPopup-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "EzPopup-dummy.m"; sourceTree = "<group>"; };
+		77DDF3AA7EBA7B65DDF0AD50AAB5B685 /* EMSpinnerButton.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = EMSpinnerButton.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7ABC24704EF82255C5EA988579756381 /* EzPopup.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = EzPopup.modulemap; sourceTree = "<group>"; };
+		7D6A9A88B5988CDB140E092B6FDF81A8 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8172ABA3CEDE8C746268188133B774FB /* Pods-Investment.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Investment.modulemap"; sourceTree = "<group>"; };
-		919500FD71BBD1C7E53B81DA7B4845EF /* RSFloatInputView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RSFloatInputView-umbrella.h"; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		946E0F329D0BCE61AB108389ED247FA0 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		95B30FDD31BB76C36EA478A54341BD85 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		9F02E629C841C4A286D5E6CA893EFA6C /* EzPopup.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = EzPopup.framework; path = EzPopup.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A04E041C26DBF4B44D14477E8B0FD653 /* Pods-Investment-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Investment-resources.sh"; sourceTree = "<group>"; };
-		A3E45448C3C080F2A3C5DEE673F3D4EC /* RSFloatInputView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "RSFloatInputView-dummy.m"; sourceTree = "<group>"; };
-		A9403A546A5381E3E585BE67D73004AF /* EMSpinnerButton.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EMSpinnerButton.h; path = EMSpinnerButton/EMSpinnerButton.h; sourceTree = "<group>"; };
-		AF0C4D233C38245EACF314ACCA5044ED /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		BE69671C834B4939421573573C0FEF7E /* Pods_Investment.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Investment.framework; path = "Pods-Investment.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		CA3BD4F045F9CAD57CD2C01B17FF81A2 /* RSFloatInputView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RSFloatInputView-prefix.pch"; sourceTree = "<group>"; };
-		CA95345356E61222EC0137C4FA37FAB4 /* EMSpinnerButton.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = EMSpinnerButton.modulemap; sourceTree = "<group>"; };
+		A1C4BF83E89F01B415492DDB2B3A47F8 /* EMSpinnerButton.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EMSpinnerButton.h; path = EMSpinnerButton/EMSpinnerButton.h; sourceTree = "<group>"; };
+		A4E3F28D8304A81F74DAE0A32C0E8D7E /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A61323F75C0F913EE098C0CD9EB55EAC /* WOWMarkSlider-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "WOWMarkSlider-dummy.m"; sourceTree = "<group>"; };
+		AD68A7913465980B582C5DA700FA6151 /* EMSpinnerButton.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = EMSpinnerButton.modulemap; sourceTree = "<group>"; };
+		AE965C7814E3650C7C3C261670A2302A /* EzPopup.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = EzPopup.xcconfig; sourceTree = "<group>"; };
+		C0C37600A5CDDD3A7D9654D9E1F7A739 /* RSFloatInputView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = RSFloatInputView.modulemap; sourceTree = "<group>"; };
+		C59DA1CDD619D6A070D4859CF4538040 /* EzPopup-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "EzPopup-prefix.pch"; sourceTree = "<group>"; };
 		D00F41CFAEB04513ECDB93B7B946AFA0 /* Pods-Investment.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Investment.release.xcconfig"; sourceTree = "<group>"; };
-		D545A63A88C94CAC431ECD7A9E4AF19E /* PopupViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PopupViewController.swift; path = EzPopup/Classes/PopupViewController.swift; sourceTree = "<group>"; };
 		D5E3A19B2930C810DDC433AE451736BA /* Pods-Investment-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Investment-umbrella.h"; sourceTree = "<group>"; };
-		D7C289AB2C381987AC86ADEC43A81FD5 /* RSFloatInputView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = RSFloatInputView.xcconfig; sourceTree = "<group>"; };
+		D9B792733BA8D89A0DA9EF86EC75ABC0 /* RSFloatInputView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = RSFloatInputView.xcconfig; sourceTree = "<group>"; };
 		DDD01D9A0E9A0F811116C9B3C34E659A /* Pods-Investment-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Investment-dummy.m"; sourceTree = "<group>"; };
-		E10B65E79F6692269EF4423BEC93D3C8 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DF050EE3C3AE4E14A17ED805BBEA4264 /* EMSpinnerButton-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "EMSpinnerButton-dummy.m"; sourceTree = "<group>"; };
 		E31263DC4FBAE71EBC023E8B153F0DBB /* Pods-Investment-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Investment-frameworks.sh"; sourceTree = "<group>"; };
+		EB1D9A449FB41CE0949F037C8CFB4D99 /* WOWMarkSlider-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WOWMarkSlider-prefix.pch"; sourceTree = "<group>"; };
+		F2A37EF6CF9D707D68840FAFB0EBA4C6 /* EMSpinnerButton-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "EMSpinnerButton-prefix.pch"; sourceTree = "<group>"; };
 		F2DB76560B66B0EF20D6D4D09AD3C7FC /* Pods-Investment-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Investment-acknowledgements.markdown"; sourceTree = "<group>"; };
-		F7CE15FF19F45CA94CEE899F6E7A2D2F /* EzPopup.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = EzPopup.modulemap; sourceTree = "<group>"; };
+		F7CB8E101155C2F85D780D0DB5BEC98C /* RSFloatInputView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "RSFloatInputView-dummy.m"; sourceTree = "<group>"; };
 		FDA226183961FEB7788E4F3CC0983485 /* Pods-Investment-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Investment-acknowledgements.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		03BEDDEC6513383FFD66AB822EBD1DC1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5C5191521622F693405968F435F5C1DA /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0592F5531960263CD5A3605AFD864BB8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				074CF1E24DB429D2EC1B3986ABEF6C02 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		1751EEC5CAF53BA50538C0F1DF3CEFAC /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -103,11 +140,11 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		4B8F5CFA493F631D48C0D87F87DEE9B7 /* Frameworks */ = {
+		83BE80CE281486FD930F39FC7D65CCC0 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				955B09C3CB7B2471123DE8D645155B49 /* Foundation.framework in Frameworks */,
+				BD19318C016019D3B93174695642B826 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -119,54 +156,67 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D0DA56E5C315D80A45E4802B10CDA257 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				50E8A267B3364DFE5F921E9E5296665E /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		03A0E65627AFE3261857577A64573C80 /* Products */ = {
+		00284B3B2E87783A5C07EB5B722CCF39 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				42522D5CE1B6218B126E562AF4B40366 /* EMSpinnerButton.framework */,
-				9F02E629C841C4A286D5E6CA893EFA6C /* EzPopup.framework */,
-				BE69671C834B4939421573573C0FEF7E /* Pods_Investment.framework */,
-				806EFE11AA39AD13E6B918091D50D454 /* RSFloatInputView.framework */,
+				6E63B322F08CD33E4FEA0557FAA6D0A9 /* Info.plist */,
+				1E0C3ABAF48734A6C19323BAD9BAD41F /* WOWMarkSlider.modulemap */,
+				6D9700D33863C012CEE7A7264300B22E /* WOWMarkSlider.xcconfig */,
+				A61323F75C0F913EE098C0CD9EB55EAC /* WOWMarkSlider-dummy.m */,
+				EB1D9A449FB41CE0949F037C8CFB4D99 /* WOWMarkSlider-prefix.pch */,
+				354D455022490B1FF4223CC30A0B5A63 /* WOWMarkSlider-umbrella.h */,
 			);
-			name = Products;
+			name = "Support Files";
+			path = "../Target Support Files/WOWMarkSlider";
 			sourceTree = "<group>";
 		};
-		056C06C0A56D24C65FC403A6C652A0F7 /* Support Files */ = {
+		0809269C20D0DE1FACF99915B5099845 /* EMSpinnerButton */ = {
 			isa = PBXGroup;
 			children = (
-				AF0C4D233C38245EACF314ACCA5044ED /* Info.plist */,
-				2CD4B662B4697CFD9C42E240AACEB2E4 /* RSFloatInputView.modulemap */,
-				D7C289AB2C381987AC86ADEC43A81FD5 /* RSFloatInputView.xcconfig */,
-				A3E45448C3C080F2A3C5DEE673F3D4EC /* RSFloatInputView-dummy.m */,
-				CA3BD4F045F9CAD57CD2C01B17FF81A2 /* RSFloatInputView-prefix.pch */,
-				919500FD71BBD1C7E53B81DA7B4845EF /* RSFloatInputView-umbrella.h */,
+				A1C4BF83E89F01B415492DDB2B3A47F8 /* EMSpinnerButton.h */,
+				2A974AC38F98BC6C4F64567D392AC369 /* EMSpinnerButton.swift */,
+				2BA7E7A9B10E9861B17D3D1B1681FB0B /* EMSpinnerLayer.swift */,
+				C652B7948E86E07EFDB2B103EDE7C375 /* Support Files */,
+			);
+			path = EMSpinnerButton;
+			sourceTree = "<group>";
+		};
+		08A80B7240C9C12C891DA7E5C502C022 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0809269C20D0DE1FACF99915B5099845 /* EMSpinnerButton */,
+				E5CDAD25A3325ADE5900A182AB420534 /* EzPopup */,
+				37F50B82C0669759F59133F4AF9303E6 /* RSFloatInputView */,
+				E491E06352CAE729CD661F8229D8DC33 /* WOWMarkSlider */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		1D2EB6816A58CCEBF6C8CDEA4601AE68 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				7D6A9A88B5988CDB140E092B6FDF81A8 /* Info.plist */,
+				C0C37600A5CDDD3A7D9654D9E1F7A739 /* RSFloatInputView.modulemap */,
+				D9B792733BA8D89A0DA9EF86EC75ABC0 /* RSFloatInputView.xcconfig */,
+				F7CB8E101155C2F85D780D0DB5BEC98C /* RSFloatInputView-dummy.m */,
+				30242391F1045835A4741B3B2E6EE5B3 /* RSFloatInputView-prefix.pch */,
+				0CAA81CEED7432E601FD998DA251E2F8 /* RSFloatInputView-umbrella.h */,
 			);
 			name = "Support Files";
 			path = "../Target Support Files/RSFloatInputView";
 			sourceTree = "<group>";
 		};
-		0F797113E8143A05EAF31AA39D67D326 /* Support Files */ = {
+		37F50B82C0669759F59133F4AF9303E6 /* RSFloatInputView */ = {
 			isa = PBXGroup;
 			children = (
-				CA95345356E61222EC0137C4FA37FAB4 /* EMSpinnerButton.modulemap */,
-				101AECF2DD5F4AF29393E1EE4A8E66F8 /* EMSpinnerButton.xcconfig */,
-				70FC8F0E7D9E00CF2BE7D8812C04D210 /* EMSpinnerButton-dummy.m */,
-				3001DC600C377CBCBBE1A91EF0D32276 /* EMSpinnerButton-prefix.pch */,
-				05EF4561949AAA235D8E769769746FA4 /* EMSpinnerButton-umbrella.h */,
-				E10B65E79F6692269EF4423BEC93D3C8 /* Info.plist */,
+				6A6AA14DAE0750A863B08BF91180A7D8 /* RSFloatInputView.swift */,
+				582ACBD2DF332D95EEA845F47F1E42BD /* RSFloatInputViewUtils.swift */,
+				1D2EB6816A58CCEBF6C8CDEA4601AE68 /* Support Files */,
 			);
-			name = "Support Files";
-			path = "../Target Support Files/EMSpinnerButton";
+			path = RSFloatInputView;
 			sourceTree = "<group>";
 		};
 		5E0D919E635D23B70123790B8308F8EF /* iOS */ = {
@@ -195,52 +245,15 @@
 			path = "Target Support Files/Pods-Investment";
 			sourceTree = "<group>";
 		};
-		77E1BF869C781BD42E68842C4E70D8CB /* RSFloatInputView */ = {
-			isa = PBXGroup;
-			children = (
-				4ECCFEBA530FA764A7FEDDD0209C555C /* RSFloatInputView.swift */,
-				58FE176CCA9283759CFF8B0B7C9685C2 /* RSFloatInputViewUtils.swift */,
-				056C06C0A56D24C65FC403A6C652A0F7 /* Support Files */,
-			);
-			name = RSFloatInputView;
-			path = RSFloatInputView;
-			sourceTree = "<group>";
-		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
 				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
-				E335E66A2299479DC8D2500BB1E2BE7D /* Pods */,
-				03A0E65627AFE3261857577A64573C80 /* Products */,
+				08A80B7240C9C12C891DA7E5C502C022 /* Pods */,
+				D7413DF2C1D3D6781DC024677C6E1725 /* Products */,
 				CA8B2863BE13FFF91EE28BD5A2B5B9F6 /* Targets Support Files */,
 			);
-			sourceTree = "<group>";
-		};
-		9AF7802CF3AD489EFC4B561A17B834DE /* EMSpinnerButton */ = {
-			isa = PBXGroup;
-			children = (
-				A9403A546A5381E3E585BE67D73004AF /* EMSpinnerButton.h */,
-				00B026207C94CCD8B04ED169C6951A6A /* EMSpinnerButton.swift */,
-				0F0F094A59B9BC9DDF96A7D55862C9F7 /* EMSpinnerLayer.swift */,
-				0F797113E8143A05EAF31AA39D67D326 /* Support Files */,
-			);
-			name = EMSpinnerButton;
-			path = EMSpinnerButton;
-			sourceTree = "<group>";
-		};
-		B5D9DFFDE95E575E294CAAB6BA0C8E5A /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				F7CE15FF19F45CA94CEE899F6E7A2D2F /* EzPopup.modulemap */,
-				7AE50ECA0F5A611D5B4ED1545AD97A2C /* EzPopup.xcconfig */,
-				06B783738650422D3EBEA157FA7EBB53 /* EzPopup-dummy.m */,
-				5EBCCC9F55CF43D5217FD85BD0276C75 /* EzPopup-prefix.pch */,
-				06404CF3577DBD0B05D13B077A25ADFA /* EzPopup-umbrella.h */,
-				95B30FDD31BB76C36EA478A54341BD85 /* Info.plist */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/EzPopup";
 			sourceTree = "<group>";
 		};
 		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
@@ -251,6 +264,20 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		C652B7948E86E07EFDB2B103EDE7C375 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				AD68A7913465980B582C5DA700FA6151 /* EMSpinnerButton.modulemap */,
+				49620252E7E9E8446F7BEAE64C00A302 /* EMSpinnerButton.xcconfig */,
+				DF050EE3C3AE4E14A17ED805BBEA4264 /* EMSpinnerButton-dummy.m */,
+				F2A37EF6CF9D707D68840FAFB0EBA4C6 /* EMSpinnerButton-prefix.pch */,
+				0B392C464360FD189F4A0121EE5EA473 /* EMSpinnerButton-umbrella.h */,
+				5D60FAB9EF28AA4255C56B3821608446 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/EMSpinnerButton";
+			sourceTree = "<group>";
+		};
 		CA8B2863BE13FFF91EE28BD5A2B5B9F6 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -259,42 +286,75 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		E335E66A2299479DC8D2500BB1E2BE7D /* Pods */ = {
+		D7413DF2C1D3D6781DC024677C6E1725 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				9AF7802CF3AD489EFC4B561A17B834DE /* EMSpinnerButton */,
-				F283499ACD9DC169C2F03A17C477A9F5 /* EzPopup */,
-				77E1BF869C781BD42E68842C4E70D8CB /* RSFloatInputView */,
+				77DDF3AA7EBA7B65DDF0AD50AAB5B685 /* EMSpinnerButton.framework */,
+				4BE3DEC4F52CA6B0EE9118AC89DFE82D /* EzPopup.framework */,
+				2983F974617DA5CC6A7E9322ADB0ECEE /* Pods_Investment.framework */,
+				6AE5B654929A11A41BD6C127020B2641 /* RSFloatInputView.framework */,
+				461C87C232EE2A3FF206CD240FDDE1C7 /* WOWMarkSlider.framework */,
 			);
-			name = Pods;
+			name = Products;
 			sourceTree = "<group>";
 		};
-		F283499ACD9DC169C2F03A17C477A9F5 /* EzPopup */ = {
+		D8B2BC779F0B8EDA2D72E4943D9D5E23 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				D545A63A88C94CAC431ECD7A9E4AF19E /* PopupViewController.swift */,
-				B5D9DFFDE95E575E294CAAB6BA0C8E5A /* Support Files */,
+				7ABC24704EF82255C5EA988579756381 /* EzPopup.modulemap */,
+				AE965C7814E3650C7C3C261670A2302A /* EzPopup.xcconfig */,
+				7422AA685F13B7E7D4B45244DED2558D /* EzPopup-dummy.m */,
+				C59DA1CDD619D6A070D4859CF4538040 /* EzPopup-prefix.pch */,
+				4ED1BADB6444B6D608227B0B00DBBFE5 /* EzPopup-umbrella.h */,
+				A4E3F28D8304A81F74DAE0A32C0E8D7E /* Info.plist */,
 			);
-			name = EzPopup;
+			name = "Support Files";
+			path = "../Target Support Files/EzPopup";
+			sourceTree = "<group>";
+		};
+		E491E06352CAE729CD661F8229D8DC33 /* WOWMarkSlider */ = {
+			isa = PBXGroup;
+			children = (
+				04B551B99B0B9C614E00333FC9A73611 /* WOWMarkSlider.swift */,
+				0B73C20A6E573949C42CE21EA033E731 /* WOWTooltipView.swift */,
+				00284B3B2E87783A5C07EB5B722CCF39 /* Support Files */,
+			);
+			path = WOWMarkSlider;
+			sourceTree = "<group>";
+		};
+		E5CDAD25A3325ADE5900A182AB420534 /* EzPopup */ = {
+			isa = PBXGroup;
+			children = (
+				20CD973A128770A9738F45FEC50AD46E /* PopupViewController.swift */,
+				D8B2BC779F0B8EDA2D72E4943D9D5E23 /* Support Files */,
+			);
 			path = EzPopup;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		30C128EAA3C3DE2139DB65EAD7F3FFE1 /* Headers */ = {
+		1B778212A80F9F0BD3AAFDF321216A38 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7EFDB7F4A273208756762EE13C22C2DA /* Pods-Investment-umbrella.h in Headers */,
+				9813ABA91761933FC7567A17BCAB53CF /* RSFloatInputView-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		30C8CD0F2BC808D9165DCB03A50576C9 /* Headers */ = {
+		5332911F0F5263AC443D3E90CC94FF33 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1ADD4D4931246D6C4DCF0EC756FB01E6 /* RSFloatInputView-umbrella.h in Headers */,
+				5A25A2881D060B6628B9017A2C7D984E /* Pods-Investment-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		53D2B83EBD3BEF92343A097BF56E6891 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				442DEDDA06987931197CE7B5C7D41CDB /* WOWMarkSlider-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -318,25 +378,22 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		333537E1EE5FAA493541A6F457F0DF10 /* Pods-Investment */ = {
+		0AE6C0D99EDD49082890696F11A07991 /* RSFloatInputView */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 8E957646F54283EB6B27D5AC8CC34577 /* Build configuration list for PBXNativeTarget "Pods-Investment" */;
+			buildConfigurationList = 84D9D32D8F8CAA757280F0163F5DB3BF /* Build configuration list for PBXNativeTarget "RSFloatInputView" */;
 			buildPhases = (
-				30C128EAA3C3DE2139DB65EAD7F3FFE1 /* Headers */,
-				C3829D2E29F4E01A2501E57C219886CF /* Sources */,
-				D0DA56E5C315D80A45E4802B10CDA257 /* Frameworks */,
-				0F6FBCA9CB5EECA20B227C4B32109631 /* Resources */,
+				1B778212A80F9F0BD3AAFDF321216A38 /* Headers */,
+				F851817AEAB6D6770083DC08EFDB8AF2 /* Sources */,
+				03BEDDEC6513383FFD66AB822EBD1DC1 /* Frameworks */,
+				8074A91FF26087EAF7C891C119F4A39D /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				160C7D7F851D8C97148D4DC2E82D0622 /* PBXTargetDependency */,
-				27F93E1043768EF6AF67F4F3596B7082 /* PBXTargetDependency */,
-				8C790E6BFA6E972891CCB866A5CE372B /* PBXTargetDependency */,
 			);
-			name = "Pods-Investment";
-			productName = "Pods-Investment";
-			productReference = BE69671C834B4939421573573C0FEF7E /* Pods_Investment.framework */;
+			name = RSFloatInputView;
+			productName = RSFloatInputView;
+			productReference = 6AE5B654929A11A41BD6C127020B2641 /* RSFloatInputView.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		420A71656F82FD270F2F01D994591F01 /* EzPopup */ = {
@@ -354,25 +411,25 @@
 			);
 			name = EzPopup;
 			productName = EzPopup;
-			productReference = 9F02E629C841C4A286D5E6CA893EFA6C /* EzPopup.framework */;
+			productReference = 4BE3DEC4F52CA6B0EE9118AC89DFE82D /* EzPopup.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		50B5E100B1F2296D6F073D8448776DEE /* RSFloatInputView */ = {
+		763443D91DE44A0D98F47B216D3313A8 /* WOWMarkSlider */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F1B17D7267FB256D86347E10FDAEFD5A /* Build configuration list for PBXNativeTarget "RSFloatInputView" */;
+			buildConfigurationList = FD99E18A981247DA866F10AE3B1D49C6 /* Build configuration list for PBXNativeTarget "WOWMarkSlider" */;
 			buildPhases = (
-				30C8CD0F2BC808D9165DCB03A50576C9 /* Headers */,
-				5B1EC96734B1C21D5C6C6E66EC0130C8 /* Sources */,
-				4B8F5CFA493F631D48C0D87F87DEE9B7 /* Frameworks */,
-				EF011CF17FCBEE047FCA96084DA4AB45 /* Resources */,
+				53D2B83EBD3BEF92343A097BF56E6891 /* Headers */,
+				191A5E5F106859F59101ABD5D415A339 /* Sources */,
+				0592F5531960263CD5A3605AFD864BB8 /* Frameworks */,
+				F805CEA2D0B66C1492977801AE53DA9D /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = RSFloatInputView;
-			productName = RSFloatInputView;
-			productReference = 806EFE11AA39AD13E6B918091D50D454 /* RSFloatInputView.framework */;
+			name = WOWMarkSlider;
+			productName = WOWMarkSlider;
+			productReference = 461C87C232EE2A3FF206CD240FDDE1C7 /* WOWMarkSlider.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		A0C0A18A908C6D5A03C4DAA77582B9F0 /* EMSpinnerButton */ = {
@@ -390,7 +447,29 @@
 			);
 			name = EMSpinnerButton;
 			productName = EMSpinnerButton;
-			productReference = 42522D5CE1B6218B126E562AF4B40366 /* EMSpinnerButton.framework */;
+			productReference = 77DDF3AA7EBA7B65DDF0AD50AAB5B685 /* EMSpinnerButton.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		F843ABD6216BE05F6E6B63C8515D061E /* Pods-Investment */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1BAEF52626E19F1AF8D2C688CA9F13D1 /* Build configuration list for PBXNativeTarget "Pods-Investment" */;
+			buildPhases = (
+				5332911F0F5263AC443D3E90CC94FF33 /* Headers */,
+				49BE31279B5CC24B0FE765D1154785A9 /* Sources */,
+				83BE80CE281486FD930F39FC7D65CCC0 /* Frameworks */,
+				22BE6C80178062580A9D692B95882A26 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				073BE7B32F615F885D4B507220A661F6 /* PBXTargetDependency */,
+				5403ECA96C84399BBB72A8E1FF5F6B8E /* PBXTargetDependency */,
+				84E658EBB743906392874F8ED985DD5F /* PBXTargetDependency */,
+				D8CFA8B04B639D759915D569670C19DC /* PBXTargetDependency */,
+			);
+			name = "Pods-Investment";
+			productName = "Pods-Investment";
+			productReference = 2983F974617DA5CC6A7E9322ADB0ECEE /* Pods_Investment.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -410,20 +489,28 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = 03A0E65627AFE3261857577A64573C80 /* Products */;
+			productRefGroup = D7413DF2C1D3D6781DC024677C6E1725 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				A0C0A18A908C6D5A03C4DAA77582B9F0 /* EMSpinnerButton */,
 				420A71656F82FD270F2F01D994591F01 /* EzPopup */,
-				333537E1EE5FAA493541A6F457F0DF10 /* Pods-Investment */,
-				50B5E100B1F2296D6F073D8448776DEE /* RSFloatInputView */,
+				F843ABD6216BE05F6E6B63C8515D061E /* Pods-Investment */,
+				0AE6C0D99EDD49082890696F11A07991 /* RSFloatInputView */,
+				763443D91DE44A0D98F47B216D3313A8 /* WOWMarkSlider */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		0F6FBCA9CB5EECA20B227C4B32109631 /* Resources */ = {
+		22BE6C80178062580A9D692B95882A26 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8074A91FF26087EAF7C891C119F4A39D /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -444,7 +531,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		EF011CF17FCBEE047FCA96084DA4AB45 /* Resources */ = {
+		F805CEA2D0B66C1492977801AE53DA9D /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -454,6 +541,16 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		191A5E5F106859F59101ABD5D415A339 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6415C254BEEA2CD02BBAA9528E82AAC4 /* WOWMarkSlider-dummy.m in Sources */,
+				A737A7EED4C5756854784E44BCD0A5B2 /* WOWMarkSlider.swift in Sources */,
+				D4EF4F2492B9F1ACFD6C53310158608D /* WOWTooltipView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		4113F8AA9B89D3D002E92D7B0B831680 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -461,6 +558,14 @@
 				B083F28BA5F5C6CF135560E3024D5803 /* EMSpinnerButton-dummy.m in Sources */,
 				06BA7AEB0336943517682F63104B70F7 /* EMSpinnerButton.swift in Sources */,
 				B9551B82BF07EE0708552F8C05A29ED8 /* EMSpinnerLayer.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		49BE31279B5CC24B0FE765D1154785A9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A74140822C06FF8FC20482D7096A3ED0 /* Pods-Investment-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -473,51 +578,49 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		5B1EC96734B1C21D5C6C6E66EC0130C8 /* Sources */ = {
+		F851817AEAB6D6770083DC08EFDB8AF2 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C7582F8DCEBDA1A4A8E201CF9446C274 /* RSFloatInputView-dummy.m in Sources */,
-				784C1FE98FF2A61C23A2F57F9FEF6ADF /* RSFloatInputView.swift in Sources */,
-				54D5586112A19A87677ADC5423F47DC1 /* RSFloatInputViewUtils.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		C3829D2E29F4E01A2501E57C219886CF /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				1AF7A1F2E370E0C2D68620CCA5BD4FB2 /* Pods-Investment-dummy.m in Sources */,
+				9FE3D5D6E1EF9147DD9719E5B7050297 /* RSFloatInputView-dummy.m in Sources */,
+				4F184C003DABF4BD0D5DABE50543E630 /* RSFloatInputView.swift in Sources */,
+				9EE44AFBFB673C368BDC48137D979C07 /* RSFloatInputViewUtils.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		160C7D7F851D8C97148D4DC2E82D0622 /* PBXTargetDependency */ = {
+		073BE7B32F615F885D4B507220A661F6 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = EMSpinnerButton;
 			target = A0C0A18A908C6D5A03C4DAA77582B9F0 /* EMSpinnerButton */;
-			targetProxy = 9A2F80300BAED2B4CBAA571ED5833C7F /* PBXContainerItemProxy */;
+			targetProxy = 0EA8BD45681BC4863106D41DB61011E2 /* PBXContainerItemProxy */;
 		};
-		27F93E1043768EF6AF67F4F3596B7082 /* PBXTargetDependency */ = {
+		5403ECA96C84399BBB72A8E1FF5F6B8E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = EzPopup;
 			target = 420A71656F82FD270F2F01D994591F01 /* EzPopup */;
-			targetProxy = 3F55DD89B31759C083100FEE931FF0CE /* PBXContainerItemProxy */;
+			targetProxy = DD9AF477F4E6615A21F66F33475195D6 /* PBXContainerItemProxy */;
 		};
-		8C790E6BFA6E972891CCB866A5CE372B /* PBXTargetDependency */ = {
+		84E658EBB743906392874F8ED985DD5F /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = RSFloatInputView;
-			target = 50B5E100B1F2296D6F073D8448776DEE /* RSFloatInputView */;
-			targetProxy = 1E822BE017E5A2B2D8F906B1F61B5232 /* PBXContainerItemProxy */;
+			target = 0AE6C0D99EDD49082890696F11A07991 /* RSFloatInputView */;
+			targetProxy = 634F19ED236187F35394501EF362F84B /* PBXContainerItemProxy */;
+		};
+		D8CFA8B04B639D759915D569670C19DC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = WOWMarkSlider;
+			target = 763443D91DE44A0D98F47B216D3313A8 /* WOWMarkSlider */;
+			targetProxy = 7FB4593E636D60188250C2CAEFF4477A /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		2287834345EB1B1DC73A23BBF9CE5B03 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7AE50ECA0F5A611D5B4ED1545AD97A2C /* EzPopup.xcconfig */;
+			baseConfigurationReference = AE965C7814E3650C7C3C261670A2302A /* EzPopup.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -532,11 +635,7 @@
 				INFOPLIST_FILE = "Target Support Files/EzPopup/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/EzPopup/EzPopup.modulemap";
 				PRODUCT_MODULE_NAME = EzPopup;
 				PRODUCT_NAME = EzPopup;
@@ -551,9 +650,9 @@
 			};
 			name = Debug;
 		};
-		241869AD50955A1338DAC12A3B7E7DCF /* Release */ = {
+		2B9D10323FA5A7AFA85208041D2EB5E1 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D7C289AB2C381987AC86ADEC43A81FD5 /* RSFloatInputView.xcconfig */;
+			baseConfigurationReference = D9B792733BA8D89A0DA9EF86EC75ABC0 /* RSFloatInputView.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -568,26 +667,56 @@
 				INFOPLIST_FILE = "Target Support Files/RSFloatInputView/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/RSFloatInputView/RSFloatInputView.modulemap";
 				PRODUCT_MODULE_NAME = RSFloatInputView;
 				PRODUCT_NAME = RSFloatInputView;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.1;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Release;
+			name = Debug;
+		};
+		2E61497F8266F9D97EF63DBD84961515 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 73A277714561EE9BD827A0723E5BF189 /* Pods-Investment.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Investment/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Investment/Pods-Investment.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
 		};
 		40B45BB3CF3EE4476259302A7FAAD78F /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -650,7 +779,7 @@
 		};
 		4C128EEC5B829D62AEAB62C812197857 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 101AECF2DD5F4AF29393E1EE4A8E66F8 /* EMSpinnerButton.xcconfig */;
+			baseConfigurationReference = 49620252E7E9E8446F7BEAE64C00A302 /* EMSpinnerButton.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -665,19 +794,14 @@
 				INFOPLIST_FILE = "Target Support Files/EMSpinnerButton/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/EMSpinnerButton/EMSpinnerButton.modulemap";
 				PRODUCT_MODULE_NAME = EMSpinnerButton;
 				PRODUCT_NAME = EMSpinnerButton;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
@@ -686,12 +810,10 @@
 			};
 			name = Release;
 		};
-		75D7B0776B25337417D90C7CAF8EA189 /* Debug */ = {
+		5064E6A0B32600AE3F015CB439423ACE /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 73A277714561EE9BD827A0723E5BF189 /* Pods-Investment.debug.xcconfig */;
+			baseConfigurationReference = 6D9700D33863C012CEE7A7264300B22E /* WOWMarkSlider.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -701,25 +823,19 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-Investment/Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/WOWMarkSlider/WOWMarkSlider-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/WOWMarkSlider/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-Investment/Pods-Investment.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/WOWMarkSlider/WOWMarkSlider.modulemap";
+				PRODUCT_MODULE_NAME = WOWMarkSlider;
+				PRODUCT_NAME = WOWMarkSlider;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -790,45 +906,9 @@
 			};
 			name = Debug;
 		};
-		875CEA0CCF71D6C80336A66A642BA9E2 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = D7C289AB2C381987AC86ADEC43A81FD5 /* RSFloatInputView.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/RSFloatInputView/RSFloatInputView-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/RSFloatInputView/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MODULEMAP_FILE = "Target Support Files/RSFloatInputView/RSFloatInputView.modulemap";
-				PRODUCT_MODULE_NAME = RSFloatInputView;
-				PRODUCT_NAME = RSFloatInputView;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 4.1;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 		88F9D4E4DF15E5375CE73E2CC95E92AB /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7AE50ECA0F5A611D5B4ED1545AD97A2C /* EzPopup.xcconfig */;
+			baseConfigurationReference = AE965C7814E3650C7C3C261670A2302A /* EzPopup.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -843,19 +923,14 @@
 				INFOPLIST_FILE = "Target Support Files/EzPopup/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/EzPopup/EzPopup.modulemap";
 				PRODUCT_MODULE_NAME = EzPopup;
 				PRODUCT_NAME = EzPopup;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
@@ -864,43 +939,7 @@
 			};
 			name = Release;
 		};
-		F21E219F05E645D6663BD8BC5743A048 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 101AECF2DD5F4AF29393E1EE4A8E66F8 /* EMSpinnerButton.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/EMSpinnerButton/EMSpinnerButton-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/EMSpinnerButton/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MODULEMAP_FILE = "Target Support Files/EMSpinnerButton/EMSpinnerButton.modulemap";
-				PRODUCT_MODULE_NAME = EMSpinnerButton;
-				PRODUCT_NAME = EMSpinnerButton;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		FC731824CD6EFBA0B1E711DD1F5FEFEC /* Release */ = {
+		9B1165344F990C7882D3A149C0A49BE7 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = D00F41CFAEB04513ECDB93B7B946AFA0 /* Pods-Investment.release.xcconfig */;
 			buildSettings = {
@@ -918,11 +957,7 @@
 				INFOPLIST_FILE = "Target Support Files/Pods-Investment/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-Investment/Pods-Investment.modulemap";
 				OTHER_LDFLAGS = "";
@@ -932,8 +967,105 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		C194B16B515206FC62C5AB8D527E07FC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6D9700D33863C012CEE7A7264300B22E /* WOWMarkSlider.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/WOWMarkSlider/WOWMarkSlider-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/WOWMarkSlider/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/WOWMarkSlider/WOWMarkSlider.modulemap";
+				PRODUCT_MODULE_NAME = WOWMarkSlider;
+				PRODUCT_NAME = WOWMarkSlider;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		F21E219F05E645D6663BD8BC5743A048 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 49620252E7E9E8446F7BEAE64C00A302 /* EMSpinnerButton.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/EMSpinnerButton/EMSpinnerButton-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/EMSpinnerButton/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/EMSpinnerButton/EMSpinnerButton.modulemap";
+				PRODUCT_MODULE_NAME = EMSpinnerButton;
+				PRODUCT_NAME = EMSpinnerButton;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		FD98CF0D0491360AABF466C8935F3BD4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D9B792733BA8D89A0DA9EF86EC75ABC0 /* RSFloatInputView.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/RSFloatInputView/RSFloatInputView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/RSFloatInputView/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/RSFloatInputView/RSFloatInputView.modulemap";
+				PRODUCT_MODULE_NAME = RSFloatInputView;
+				PRODUCT_NAME = RSFloatInputView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.1;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -944,6 +1076,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		1BAEF52626E19F1AF8D2C688CA9F13D1 /* Build configuration list for PBXNativeTarget "Pods-Investment" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2E61497F8266F9D97EF63DBD84961515 /* Debug */,
+				9B1165344F990C7882D3A149C0A49BE7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -953,11 +1094,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		8E957646F54283EB6B27D5AC8CC34577 /* Build configuration list for PBXNativeTarget "Pods-Investment" */ = {
+		84D9D32D8F8CAA757280F0163F5DB3BF /* Build configuration list for PBXNativeTarget "RSFloatInputView" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				75D7B0776B25337417D90C7CAF8EA189 /* Debug */,
-				FC731824CD6EFBA0B1E711DD1F5FEFEC /* Release */,
+				2B9D10323FA5A7AFA85208041D2EB5E1 /* Debug */,
+				FD98CF0D0491360AABF466C8935F3BD4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -980,11 +1121,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		F1B17D7267FB256D86347E10FDAEFD5A /* Build configuration list for PBXNativeTarget "RSFloatInputView" */ = {
+		FD99E18A981247DA866F10AE3B1D49C6 /* Build configuration list for PBXNativeTarget "WOWMarkSlider" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				875CEA0CCF71D6C80336A66A642BA9E2 /* Debug */,
-				241869AD50955A1338DAC12A3B7E7DCF /* Release */,
+				5064E6A0B32600AE3F015CB439423ACE /* Debug */,
+				C194B16B515206FC62C5AB8D527E07FC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

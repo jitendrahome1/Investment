@@ -11,22 +11,22 @@ import UIKit
 public protocol EditableAccessoryDelegate {
    
     func didTapSelectColorAction()-> ()
-    
+    func didTapFontSelectionAction()-> ()
+    func didTapCancleAction()-> ()
 }
 
 class EditableAccessoryView : UIView  {
       var delegate: EditableAccessoryDelegate?
-    override func awakeFromNib() {
+        override func awakeFromNib() {
       
     }
     
-    func showAccessoryView() {
+     func showAccessoryView() {
         UIView.animate(withDuration: 0.5, animations: {
             self.alpha = 1.0
         }, completion: nil)
     }
-    func hideAccessoryView(){
-        
+     func hideAccessoryView(){
         UIView.animate(withDuration: 0.5, animations: {
              self.alpha = 0.0
         }, completion: nil)
@@ -35,19 +35,16 @@ class EditableAccessoryView : UIView  {
     
 
     @IBAction func didTapCloseAction(_ sender: UIButton) {
-   
-        hideAccessoryView()
+       self.delegate?.didTapCancleAction()
+      //  self.hideAccessoryView()
     }
     
     @IBAction func didTapColorSelectAction(_ sender: UIButton) {
-   
         self.delegate?.didTapSelectColorAction()
-       
-    
     }
     @IBAction func didTapFontAction(_ sender: UIButton) {
-        showAccessoryView()
-    }
+        self.delegate?.didTapFontSelectionAction()
+        }
     
     
 }

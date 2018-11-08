@@ -7,11 +7,13 @@
 //
 
 import UIKit
-import EzPopup
-class InvestmentDetailsVC: BaseViewController, AuthenticationTouchID,EditableAccessoryDelegate {
+import WOWMarkSlider
+class InvestmentDetailsVC: BaseViewController, AuthenticationTouchID,EditableAccessoryDelegate,WOWMarkSliderDelegate {
     
+    @IBOutlet weak var aSlider: WOWMarkSlider!
     @IBOutlet weak var textViewEdit: JAEditableTextView!
-    let editableAccessory = EditableAccessoryView()
+    fileprivate var arrBarButton:[UIImage] = [#imageLiteral(resourceName: "more")]
+    fileprivate var _accessoryView:  EditableAccessoryView!
     var _title: String?
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -22,17 +24,18 @@ class InvestmentDetailsVC: BaseViewController, AuthenticationTouchID,EditableAcc
     }
     override func viewDidAppear(_ animated: Bool) {
         super.viewDidAppear(animated)
-        editableAccessory.delegate = self
+        
+        
         
     }
+   
     override func setupUI() {
         guard let titleHeader =  _title else { return }
         self.navTitles = titleHeader
         self.isMenuIcone = false
-        self.addRightBarButton(images: [#imageLiteral(resourceName: "more")]) { (index) in
-            
-            
-        }
+        self.addBarButton(items: self.arrBarButton)
+        self.aSlider.delegate = self
+        self.aSlider.alpha = 0.0
     }
     override func build() {
         DispatchQueue.main.asyncAfter(deadline: .now() + 0.1) {
@@ -46,24 +49,38 @@ class InvestmentDetailsVC: BaseViewController, AuthenticationTouchID,EditableAcc
             return
             
         }
+        self._accessoryView = accessoryView
         accessoryView.delegate = self
         self.textViewEdit.inputAccessoryView = accessoryView
         
     }
     
+    
+    fileprivate func addBarButton(items:[UIImage]) {
+
+        self.addRightBarButton(images: items) { (index) in
+            if index == 1{
+                self._accessoryView.showAccessoryView()
+            }
+            
+        }
+    
+    
+    
+    }
+    
 }
 // AuthenticationTouchID Delegate
 extension InvestmentDetailsVC {
-    func didAuthenticationScucces(succes: Bool) {
-        
-    }
+    func didAuthenticationScucces(succes: Bool) {}
     
     
 }
 // EditableAccessoryDelegate
 extension InvestmentDetailsVC {
     func didTapSelectColorAction() {
-          self.textViewEdit.resignFirstResponder
+        view.endEditing(true)
+        self.aSlider.alpha = 0.0
         ColorPickupVC.showColorPopUp(self) { (color) in
             if let _ = self.textViewEdit.text {
                 let attributedText = self.textViewEdit.attributedText
@@ -71,9 +88,35 @@ extension InvestmentDetailsVC {
                 self.textViewEdit.attributedText = attributedText
             }
         }
-       
+        
+    }
+    func didTapFontSelectionAction() {
+        self.aSlider.alpha =  1.0
+        view.endEditing(true)
+   
+    }
+    func didTapCancleAction() {
+     _accessoryView.hideAccessoryView()
+        if !(self.arrBarButton.contains(#imageLiteral(resourceName: "Done"))) {
+            self.arrBarButton.append(#imageLiteral(resourceName: "Done"))
+            self.addBarButton(items: self.arrBarButton)
+        }
+
+    }
+}
+// JASlider Delagte
+extension InvestmentDetailsVC {
+    func startDragging(slider: WOWMarkSlider) {
+      
     }
     
+    func endDragging(slider: WOWMarkSlider) {
+         self.textViewEdit.font = UIFont(name: self.textViewEdit.font!.fontName, size: CGFloat(slider.value))
+    }
     
+    func markSlider(slider: WOWMarkSlider, dragged to: Float) {
+        
+    }
 }
+
 

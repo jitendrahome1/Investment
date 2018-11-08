@@ -2,23 +2,27 @@ PODS:
   - EMSpinnerButton (1.0.0)
   - EzPopup (1.0)
   - RSFloatInputView (1.1.0)
+  - WOWMarkSlider (0.1.7)
 
 DEPENDENCIES:
   - EMSpinnerButton
   - EzPopup
   - RSFloatInputView
+  - WOWMarkSlider
 
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
     - EMSpinnerButton
     - EzPopup
     - RSFloatInputView
+    - WOWMarkSlider
 
 SPEC CHECKSUMS:
   EMSpinnerButton: edcf72c6a9809a7ede3f6e0696a7c7b38ca8180d
   EzPopup: 8ab951717736197e57b8f9973816fa2601cd59c5
   RSFloatInputView: 3899803dec34b7dbe04c87ea4c4ea69eca210f9d
+  WOWMarkSlider: 690025805287b6ed65b5f0771e4143800a53cf7d
 
-PODFILE CHECKSUM: ebc69d2e3d1fbbf2a63f84bdd313586c1ebf9c26
+PODFILE CHECKSUM: e9688e9cdb1b1c36ac8c7fc1da0093114ee4d441
 
 COCOAPODS: 1.5.3
